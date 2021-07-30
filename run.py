@@ -27,8 +27,8 @@ def intro():
     print("The right path is light.")
     print("Which path will you take?")
     print("1. Go left")
-    print("2. Go left")
-    pathChoice = input(" (1, 2)\n")
+    print("2. Go right")
+    pathChoice = input("1, 2\n")
     if pathChoice == "1":
         path1()
     elif pathChoice == "2":
@@ -42,9 +42,9 @@ def path1():
     print("The flame on the torch is fading  slowly and suddenly is put out.")
     print(f"{name} can no longer see, only hear the small drops in the distance and smell the wierd odur.")
     print("What will you do?")
-    print("1. Don't light the torch and keep walking")
+    print("1. Light the torch with magic ")
     print("2. Light the torch with two rocks")
-    print("3. Light the torch with magic")
+    print("3. Don't light the torch and keep walking")
     secondPathChoice = input("1, 2, 3\n")
     if secondPathChoice == "1":
         path1_1()
@@ -54,6 +54,33 @@ def path1():
         path1_3()
 
     return secondPathChoice
+
+
+def path1_1():
+    print("The flame shines brightly for a second but is the put out by a mysterious force.")
+    print("")
+    print("")
+    print("")
+
+
+def path1_2():
+    print("The flame shines brightly and lights up the cave.")
+    print(f"{name} continues to walk further down in the cave.")
+    print(f"{name} gets to a cave room and in the middle of the room stands a big ogre")
+    print(f"The ogre twice the size of {name} seems to be asleep.")
+    print("Behind the ogre there is a big hole in the ground.")
+    print("What will you do?")
+
+
+
+def path1_3():
+    print(f"{name} starts walking forward in the darkness not seeing anything.")
+    print(f"Suddenly {name} hears a scrape.")
+    print(f"But before {name} can turn around something grabs the ankle and pulls hard, knocking {name} out.")
+    print("Game Over.")
+    print("Want to try again?")
+
+
 
 
 intro()
