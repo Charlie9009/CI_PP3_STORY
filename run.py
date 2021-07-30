@@ -23,8 +23,15 @@ name = input("What it your name?\n")
 
 def intro():
     print(f"In the deep Veryovkina caves in Abkhazia year 1545 the wizard {name} is looking for the legendary artefact caldun.")
-    print(f"{name}s comes to a crossroads. The left path is dark.")
-    print("The right path is light. Which path will you take?")
-
+    print(f"{name} comes to a crossroads. The left path is dark.")
+    print("The right path is light.")
+    path = input("Which path will you take? (1 or 2)\n")
+    if path == '1':
+        firstPath()
+    elif path == '2':
+        secondPath()
+        
+    return path
 
 intro()
+
