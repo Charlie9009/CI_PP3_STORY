@@ -22,6 +22,10 @@ data = finished_game.get_all_values()
 name = input("What it your name?\n")
 
 def intro():
+    """
+    Function to display the intro of the story
+    and present the user with two path options.
+    """
     print(f"In the deep Veryovkina caves in Abkhazia year 1545 the wizard {name} is looking for the legendary artefact caldun.")
     print(f"{name} comes to a crossroads. The left path is dark.")
     print("The right path is light.")
@@ -38,6 +42,10 @@ def intro():
 
 
 def path1():
+    """
+    Function to display the first path choice
+    and present the user with three new options.
+    """
     print(f"{name} starts walking down the dark path, the feeling of unease creeps closer as the air is getting thinner.")
     print("The flame on the torch is fading  slowly and suddenly is put out.")
     print(f"{name} can no longer see, only hear the small drops in the distance and smell the wierd odur.")
