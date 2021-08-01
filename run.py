@@ -122,8 +122,8 @@ def path1_2_1_2():
     print("- You will then have 2 choices in front of you, either you will take the caldun and become the most powerful wizard")
     print("- Or you will leave and be satisfied with your life as it is. the lady said.")
     print("What will you do?")
-    print("")
-    print("")
+    print("1. Take the Caldun")
+    print("2. Leave")
     fifthPathChoice = int(input("1, 2\n"))
     if fifthPathChoice == 1:
         print(f"{name} picks up the caldun and suddenly feels a rush of energy flowing thru the body.")
@@ -132,9 +132,9 @@ def path1_2_1_2():
         print(f"Suddenly the room is quiet, the lady is gone and {name} has dissapeared.")
         print(f"The room is completely empty and everything you can hear is the eco of {name}s screams fading away.")
     elif fifthPathChoice == 2:
-        print("As {name} is walking out of the cave and the sun is shining upon {name} a calm sensation emerges.")
-        print("What the lady had said was true, a satisfaction within {name} had taken hold.")
-        print("Embracing that feeling {name} starts walking home.")
+        print(f"As {name} is walking out of the cave and the sun is shining upon {name} a calm sensation emerges.")
+        print(f"What the lady had said was true, a satisfaction within {name} had taken hold.")
+        print(f"Embracing that feeling {name} starts walking home.")
 
 
 
