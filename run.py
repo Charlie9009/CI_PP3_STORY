@@ -54,14 +54,19 @@ def path1():
     print("2. Light the torch with two rocks")
     print("3. Don't light the torch and keep walking")
     secondPathChoice = int(input("1, 2, 3\n"))
-    if secondPathChoice == 1:
-        path1_1()
-    elif secondPathChoice == 2:
-        path1_2()
-    elif secondPathChoice == 3:
-        path1_3()
+    while True:
+        if secondPathChoice == 1:
+            print("As the flame lights up {name} is not in the same place anymore.")
+            print(f"{name} is at the crossroads and takes the left path again.")
+            path1()
+        elif secondPathChoice == 2:
+            path1_2()
+            break
+        elif secondPathChoice == 3:
+            path1_3()
+            break
 
-    return secondPathChoice
+        return secondPathChoice
 
 
 def path1_1():
@@ -89,7 +94,7 @@ def path1_2():
     return thirdPathChoice
 
 
-#def path1_2_1():
+def path1_2_1():
     print(f"{name} uses magic to lift a big rock with the mind and with a great force throws the rock  in the ogres head knocking it out.")
     print(f"{name} moves quickly towards the hole in the ground still scared the ogre might wake.")
     print(f"Now {name} stares down in to a dark hole.")
@@ -98,7 +103,7 @@ def path1_2():
     print("2. Jump down")
 
 
-#def path1_2_2():
+def path1_2_2():
     print(f"As {name} quietly moves towards the hole the ogre wakes up and sprints at {name}.")
     print(f"Before {name} has even reacted the ogre picks {name} up and throws {name} to the wall, knocking {name} out.")
     print("Game Over.")
