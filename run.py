@@ -69,12 +69,6 @@ def path1():
         return secondPathChoice
 
 
-def path1_1():
-    print("The flame shines brightly for a second but is the put out by a mysterious force.")
-    print("")
-    print("")
-    print("")
-
 
 def path1_2():
     print("The flame shines brightly and lights up the cave.")
