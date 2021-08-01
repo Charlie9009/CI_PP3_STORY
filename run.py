@@ -80,11 +80,36 @@ def path1_2():
     print("What will you do?")
     print("1. Attack the ogre")
     print("2. Sneak around the ogre")
-    thirdPathChoice == int(input("1, 2\n"))
+    thirdPathChoice = int(input("1, 2\n"))
     if thirdPathChoice == 1:
         path1_2_1()
     elif thirdPathChoice == 2:
         path1_2_2()
+        
+    return thirdPathChoice
+
+
+#def path1_2_1():
+    print(f"{name} uses magic to lift a big rock with the mind and with a great force throws the rock  in the ogres head knocking it out.")
+    print(f"{name} moves quickly towards the hole in the ground still scared the ogre might wake.")
+    print(f"Now {name} stares down in to a dark hole.")
+    print("What will you do?")
+    print("1. Collect courage")
+    print("2. Jump down")
+
+
+#def path1_2_2():
+    print(f"As {name} quietly moves towards the hole the ogre wakes up and sprints at {name}.")
+    print(f"Before {name} has even reacted the ogre picks {name} up and throws {name} to the wall, knocking {name} out.")
+    print("Game Over.")
+    print("Want to try again?")
+
+
+#def path1_2_1_1():
+
+
+
+#def path1_2_1_2():
 
 
 
