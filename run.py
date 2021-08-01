@@ -49,24 +49,20 @@ def path1():
     print(f"{name} starts walking down the dark path, the feeling of unease creeps closer as the air is getting thinner.")
     print("The flame on the torch is fading  slowly and suddenly is put out.")
     print(f"{name} can no longer see, only hear the small drops in the distance and smell the wierd odur.")
-    print("What will you do?")
-    print("1. Light the torch with magic ")
-    print("2. Light the torch with two rocks")
-    print("3. Don't light the torch and keep walking")
-    secondPathChoice = int(input("1, 2, 3\n"))
     while True:
+        print("What will you do?")
+        print("1. Light the torch with magic ")
+        print("2. Light the torch with two rocks")
+        print("3. Don't light the torch and keep walking")
+        secondPathChoice = int(input("1, 2, 3\n"))
         if secondPathChoice == 1:
-            print("As the flame lights up {name} is not in the same place anymore.")
-            print(f"{name} is at the crossroads and takes the left path again.")
-            path1()
+            print("The flame shines brightly for a second but is the put out by a mysterious force.")
         elif secondPathChoice == 2:
             path1_2()
             break
         elif secondPathChoice == 3:
             path1_3()
             break
-
-        return secondPathChoice
 
 
 
@@ -92,9 +88,16 @@ def path1_2_1():
     print(f"{name} uses magic to lift a big rock with the mind and with a great force throws the rock  in the ogres head knocking it out.")
     print(f"{name} moves quickly towards the hole in the ground still scared the ogre might wake.")
     print(f"Now {name} stares down in to a dark hole.")
-    print("What will you do?")
-    print("1. Collect courage")
-    print("2. Jump down")
+    while True:
+        print("What will you do?")
+        print("1. Collect courage")
+        print("2. Jump down")
+        fourthPathChoice = int(input("1, 2\n"))
+        if fourthPathChoice == 1:
+            print("You collected courage")
+        elif fourthPathChoice == 2:
+            break
+
 
 
 def path1_2_2():
