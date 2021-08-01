@@ -96,6 +96,7 @@ def path1_2_1():
         if fourthPathChoice == 1:
             print("You collected courage")
         elif fourthPathChoice == 2:
+            path1_2_1_2()
             break
 
 
@@ -107,11 +108,20 @@ def path1_2_2():
     print("Want to try again?")
 
 
-#def path1_2_1_1():
 
-
-
-#def path1_2_1_2():
+def path1_2_1_2():
+    print(f"{name} lands and quickly stands, ready to fight if any creature would come out of the dark.")
+    print("The flame from the torch now lights up this room")
+    print(f"there right in front of {name} a golden horn with the face of a dragon on the side.")
+    print("This is the artefact caldun!")
+    print(f"{name} starts walking forward but is stopped by a women who just appeared from thin air.")
+    print("The woman had uncombed hair, rugged grey clothes and no expression on her face.")
+    print("Suddenly the old lady started speaking.")
+    print("- You seek caldun.")
+    print(f"- Yes. {name} replied.")
+    print("- You will then have 2 choices in front of you, either you will take the caldun and become the most powerful wizard")
+    print("- Or you will leave and be satisfied with your life as it is. the lady said.")
+    print("What will you do?")
 
 
 
