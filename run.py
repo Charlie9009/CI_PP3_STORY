@@ -32,10 +32,10 @@ def intro():
     print("Which path will you take?")
     print("1. Go left")
     print("2. Go right")
-    pathChoice = input("1, 2\n")
-    if pathChoice == "1":
+    pathChoice = int(input("1, 2\n"))
+    if pathChoice == 1:
         path1()
-    elif pathChoice == "2":
+    elif pathChoice == 2:
         path2()
         
     return pathChoice
@@ -53,12 +53,12 @@ def path1():
     print("1. Light the torch with magic ")
     print("2. Light the torch with two rocks")
     print("3. Don't light the torch and keep walking")
-    secondPathChoice = input("1, 2, 3\n")
-    if secondPathChoice == "1":
+    secondPathChoice = int(input("1, 2, 3\n"))
+    if secondPathChoice == 1:
         path1_1()
-    elif secondPathChoice == "2":
+    elif secondPathChoice == 2:
         path1_2()
-    elif secondPathChoice == "3":
+    elif secondPathChoice == 3:
         path1_3()
 
     return secondPathChoice
@@ -78,6 +78,14 @@ def path1_2():
     print(f"The ogre twice the size of {name} seems to be asleep.")
     print("Behind the ogre there is a big hole in the ground.")
     print("What will you do?")
+    print("1. Attack the ogre")
+    print("2. Sneak around the ogre")
+    thirdPathChoice == int(input("1, 2\n"))
+    if thirdPathChoice == 1:
+        path1_2_1()
+    elif thirdPathChoice == 2:
+        path1_2_2()
+
 
 
 
