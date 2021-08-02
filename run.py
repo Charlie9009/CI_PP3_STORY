@@ -125,6 +125,10 @@ def path1_2_1_2():
     print("2. Leave")
     fifthPathChoice = int(input("1, 2\n"))
     if fifthPathChoice == 1:
+        """
+        Get the value for path1 cell from the worksheet, turn it to an int so it can be incremented by 1
+        Send it back to update the sheet  
+        """
         finishedPath1 = int(finished_game.cell(2, 1).value)
         finishedPath1 += 1
         finished_game.update_cell(2, 1, finishedPath1)
@@ -134,6 +138,10 @@ def path1_2_1_2():
         print(f"Suddenly the room is quiet, the lady is gone and {name} has dissapeared.")
         print(f"The room is completely empty and everything you can hear is the eco of {name}s screams fading away.")
     elif fifthPathChoice == 2:
+        """
+        Get the value for path2 cell from the worksheet, turn it to an int so it can be incremented by 1
+        Send it back to update the sheet  
+        """
         finishedPath2 = int(finished_game.cell(2, 2).value)
         finishedPath2 += 1
         finished_game.update_cell(2, 2, finishedPath2)
