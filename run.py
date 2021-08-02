@@ -18,7 +18,6 @@ finished_game = SHEET.worksheet("finished_game")
 
 data = finished_game.get_all_values()
 
-
 name = input("What it your name?\n")
 
 def intro():
@@ -126,6 +125,9 @@ def path1_2_1_2():
     print("2. Leave")
     fifthPathChoice = int(input("1, 2\n"))
     if fifthPathChoice == 1:
+        finishedPath1 = int(finished_game.cell(2, 1).value)
+        finishedPath1 += 1
+        finished_game.update_cell(2, 1, finishedPath1)
         print(f"{name} picks up the caldun and suddenly feels a rush of energy flowing thru the body.")
         print("The room starts to light up more and more as every sound intensifies.")
         print(f"{name} starts to scream as the energy starts to pierce thru the body.")
