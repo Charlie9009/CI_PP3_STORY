@@ -134,6 +134,9 @@ def path1_2_1_2():
         print(f"Suddenly the room is quiet, the lady is gone and {name} has dissapeared.")
         print(f"The room is completely empty and everything you can hear is the eco of {name}s screams fading away.")
     elif fifthPathChoice == 2:
+        finishedPath2 = int(finished_game.cell(2, 2).value)
+        finishedPath2 += 1
+        finished_game.update_cell(2, 2, finishedPath2)
         print(f"As {name} is walking out of the cave and the sun is shining upon {name} a calm sensation emerges.")
         print(f"What the lady had said was true, a satisfaction within {name} had taken hold.")
         print(f"Embracing that feeling {name} starts walking home.")
