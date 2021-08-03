@@ -1,45 +1,244 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# 
 
-Welcome USER_NAME,
+<img src="">
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+<hr>
 
-## Gitpod Reminders
+## Welcome to my site []()!
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+<br>
 
-`python3 -m http.server`
+<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-
+refresh-toc -->
 
-A blue button should appear to click: *Make Public*,
+# Table of Content
 
-Another blue button should appear to click: *Open Browser*.
+1. [Project goals](#project-goals)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+2. [User experience](#user-experience)
 
-A blue button should appear to click: *Make Public*,
+    1. [Target audience](#target-audience)
 
-Another blue button should appear to click: *Open Browser*.
+    2. [User stories](#user-stories)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+    3. [Design](#design)
 
-## Updates Since The Instructional Video
+    4. [Wireframes](#wireframes)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+3. [Features](#features)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+4. [Technologies used](#technologies-used)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+    1. [Languages](#languages)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+    2. [Libraries and programs](#libraries-and-programs)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+5. [Testing](#testing)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+    1. [HTML](#html)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+    2. [CSS](#css)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+    3. [Accessibility](#accessibility)
 
---------
+    4. [Performance](#Performance)
 
-Happy coding!
+    5. [Further testing](#further-testing)
+
+    6. [Testing user stories](#testing-user-stories)
+
+6. [Bugs](#bugs)
+
+7. [Deployment](#deployment)
+
+8. [Credit](#credit)
+
+    1. [Media credit](#media-credit)
+
+    2. [Acknowledgement](#acknowledgement)
+
+## Project goals
+
+
+
+## User experience
+
+### Target audience
+
+
+
+### User stories
+
+
+
+
+
+#### Site owner goals
+
+
+
+### Design
+
+
+
+#### Colors
+
+
+
+#### Fonts
+
+
+
+### Wireframes
+
+* Below you can see the images of the wireframes.
+
+<details><summary>The index/Game page.</summary>
+<img src="docs/wireframes/index_desktop.JPG">
+</details>
+
+
+## Features
+
+* **The navigation bar and footer**
+
+* The navigation bar and the footer are present on all pages and are responsive. The navigation bar shows links to Game, Users and
+Contact. There is a feature of a border bottom to show up underneath the respective link to the page the user is on.
+This will help the user identify witch page they are on.
+
+
+<br>
+<img src="">
+<br>
+<img src="">
+
+### User stories covered by this feature:
+
+1. As a user I want an easy website where I can find the game fast.
+2. As a user I want to be able to see which page I am on.
+10. As a user I want to know the site owners process making the site.
+11. As a user I want to see the latest updates from the White House.
+17. I want the user to get feedback on which page they are on.
+<hr>
+
+
+### Features left to implement
+
+## Technologies used
+
+### Languages
+
+* HTML
+
+* CSS
+
+* JAVASCRIPT
+
+## Libraries and programs
+
+
+
+## Testing
+
+### Validator testing
+
+#### HTML
+
+<details><summary>No errors were found on index.html when passing through WC3 Validator.</summary>
+<img src="">
+</details>
+
+
+
+#### CSS
+
+<details><summary>No errors were found on the CSS file when passing through Jigsaw W3 Validator.</summary>
+<img src="">
+</details>
+<hr>
+
+#### JavaScript
+
+<details><summary>No errors were found on game.js when passing through jshint.</summary>
+<img src="">
+</details>
+
+
+#### Accessibility
+
+<details><summary>No errors were found on the index.html when passing through Wave Web Accessibility Validator.</summary>
+<img src="">
+</details>
+
+
+#### Performance
+
+* Lighthouse was used to test the performance and the speed of the site. <br>
+
+<details><summary>index.html</summary>
+<img src="">
+</details>
+
+
+## Browser Compatibility
+
+
+
+## Further testing
+
+
+
+## Testing user stories
+
+1. 
+
+|                   Feature                       |        Action        |                 Expected result                          |   Actual result     |
+|            :----------:                         |    :------------:    |               :-----------------:                        | :---------------:   |
+|                               |                               |                                           |                                          |
+|                              |                   |                                          |                                  |
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+<hr>
+
+
+### API
+
+
+
+## Bugs
+
+
+### Known bugs
+
+
+## Deployment
+
+
+### Forking a repository
+
+1. Log in to Github.
+2. Find the repository.
+3. In the top right corner click the fork button.
+4. Now you will have a copy of the repository in your account.
+
+### Cloning a repository
+1. Log in to Github.
+2. Find the repository.
+3. Above the file window locate the green code button and click it.
+4. To clone the repository using https copy the link.
+5. Open Git bash.
+6. Change the current directory to where you want the repository cloned.
+7. In your terminal type now type “Git clone” followed by the repository you copied.
+8. Press Enter.
+9. Done.
+
+## Credit
+
+## Media Credit
+
+### Images were googled and added to the project.
+
+## Acknowledgement
+
+* My Mentor Mo has been invaluable, he pushed me to challenge myself and he was able to provide consistent and helpful feedback throughout my project.
