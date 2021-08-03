@@ -23,7 +23,7 @@ name = input("What it your name?\n")
 def intro():
     """
     Function to display the intro of the story
-    and present the user with two path options.
+    and present the user with two path options by using to integers.
     """
     print(f"In the deep Veryovkina caves in Abkhazia year 1545 the wizard {name} is looking for the legendary artefact caldun.")
     print(f"{name} comes to a crossroads. The left path is dark.")
@@ -42,8 +42,9 @@ def intro():
 
 def path1():
     """
-    Function to display the first path choice
-    and present the user with three new options.
+    Function to display the first path choice of intro
+    and present the user with three new options by using three integers.
+    A while loop is also added to loop one of these choices.
     """
     print(f"{name} starts walking down the dark path, the feeling of unease creeps closer as the air is getting thinner.")
     print("The flame on the torch is fading  slowly and suddenly is put out.")
@@ -66,6 +67,10 @@ def path1():
 
 
 def path1_2():
+    """
+    Function to display the second path choice of path1
+    and present the user with two new options by using two integers.
+    """
     print("The flame shines brightly and lights up the cave.")
     print(f"{name} continues to walk further down in the cave.")
     print(f"{name} gets to a cave room and in the middle of the room stands a big ogre")
@@ -84,6 +89,11 @@ def path1_2():
 
 
 def path1_2_1():
+    """
+    Function to display the first path choice of path1_2
+    and present the user with two new options by using two integers.
+    A while loop is also added to loop one of these choices.
+    """
     print(f"{name} uses magic to lift a big rock with the mind and with a great force throws the rock  in the ogres head knocking it out.")
     print(f"{name} moves quickly towards the hole in the ground still scared the ogre might wake.")
     print(f"Now {name} stares down in to a dark hole.")
@@ -101,6 +111,10 @@ def path1_2_1():
 
 
 def path1_2_2():
+    """
+    Function to display the second path choice of path1_2
+    and to end the game.
+    """
     print(f"As {name} quietly moves towards the hole the ogre wakes up and sprints at {name}.")
     print(f"Before {name} has even reacted the ogre picks {name} up and throws {name} to the wall, knocking {name} out.")
     print("Game Over.")
@@ -109,6 +123,11 @@ def path1_2_2():
 
 
 def path1_2_1_2():
+    """
+    Function to display the second path choice of path1_2_1
+    and present the user with two new options by using two integers.
+    Code is added to send back information to google sheet when users finish the game.
+    """
     print(f"{name} lands and quickly stands, ready to fight if any creature would come out of the dark.")
     print("The flame from the torch now lights up this room")
     print(f"there right in front of {name} a golden horn with the face of a dragon on the side.")
@@ -152,6 +171,10 @@ def path1_2_1_2():
 
 
 def path1_3():
+    """
+    Function to display the third path choice of path1
+    and to end the game.
+    """
     print(f"{name} starts walking forward in the darkness not seeing anything.")
     print(f"Suddenly {name} hears a scrape.")
     print(f"But before {name} can turn around something grabs the ankle and pulls hard, knocking {name} out.")
