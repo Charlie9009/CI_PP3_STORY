@@ -69,12 +69,24 @@ refresh-toc -->
 
 ### User stories
 
+1. As a user I want an entertaining and fun story.
 
+2. As a user I want to be challenged when playing the game.
 
+3. As a user I want to be able to write my name in to the story.
+
+4. As a user I want to be able to choose multiple paths.
 
 
 #### Site owner goals
 
+5. As a site owner I want the user to be challenged.
+
+6. As a site owner I want the user to experience an original story. 
+
+7. As a site owner I want the user to have multiple path options.
+
+8. As a site owner I want to be able to see how many has finished he story in either path.
 
 
 ### Design
