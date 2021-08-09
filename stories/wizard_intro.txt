@@ -1,0 +1,6 @@
+In the deep Veryovkina caves in Abkhazia year 1545 the wizard {0} is looking for the legendary artefact caldun.
+{0} comes to a crossroads. The left path is dark.
+The right path is light.
+Which path will you take?
+Go left (1)
+Go right (2)

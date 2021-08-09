@@ -1,5 +1,5 @@
 # Import Credentials and worksheet for Google Drive API.
-from character import name
+from character import choseClass, name, characterSelect
 import gspread
 from google.oauth2.service_account import Credentials
 
@@ -19,18 +19,19 @@ finished_game = SHEET.worksheet("finished_game")
 
 data = finished_game.get_all_values()
 
+def introWizard():
+    if characterSelect == 1:
+        with open('stories/wizard_intro.txt') as f:
+            intro = f.read()
+            print(intro.format(name))
+
+
 
 def intro():
     """
     Function to display the intro of the story
     and present the user with two path options by using to integers.
     """
-    print(f"In the deep Veryovkina caves in Abkhazia year 1545 the wizard {name} is looking for the legendary artefact caldun.")
-    print(f"{name} comes to a crossroads. The left path is dark.")
-    print("The right path is light.")
-    print("Which path will you take?")
-    print("1. Go left")
-    print("2. Go right")
     pathChoice = int(input("1, 2\n"))
     if pathChoice == 1:
         path1()
@@ -183,6 +184,6 @@ def path1_3():
 
 
 
-
+introWizard()
 intro()
 
