@@ -1,12 +1,13 @@
 from pprint import pprint
 
+name = input("What is your name?\n")
+
 class character:
 
-    def __init__(self, health, mana, mind, name):
+    def __init__(self, health, mana, mind):
         self.health = health
         self.mana = mana
         self.mind = mind
-        self.name = name
 
 def choseClass():
     print("1. Wizard/ 2. Warrior/ 3. Elf")
@@ -24,12 +25,10 @@ def choseClass():
         mana = 50
         mind = 100
 
-    name = input("What is your name?\n")
-
-    return(health, mana, mind, name)
+    return(health, mana, mind)
         
 hero_data = choseClass()
 
-hero = character(hero_data[0], hero_data[1], hero_data[2], hero_data[3])
+hero = character(hero_data[0], hero_data[1], hero_data[2])
 pprint(vars(hero))
 

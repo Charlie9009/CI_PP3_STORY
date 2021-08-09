@@ -1,4 +1,5 @@
 # Import Credentials and worksheet for Google Drive API.
+from character import name
 import gspread
 from google.oauth2.service_account import Credentials
 
@@ -18,7 +19,6 @@ finished_game = SHEET.worksheet("finished_game")
 
 data = finished_game.get_all_values()
 
-name = input("What it your name?\n")
 
 def intro():
     """
