@@ -30,5 +30,6 @@ def choseClass():
 hero_data = choseClass()
 
 hero = character(hero_data[0], hero_data[1], hero_data[2])
+print("Your stats are...")
 pprint(vars(hero))
 
