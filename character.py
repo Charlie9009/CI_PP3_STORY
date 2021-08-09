@@ -28,5 +28,8 @@ def choseClass():
 
     return(health, mana, mind, name)
         
+hero_data = choseClass()
 
+hero = character(hero_data[0], hero_data[1], hero_data[2], hero_data[3])
+pprint(vars(hero))
 
