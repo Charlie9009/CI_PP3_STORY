@@ -1,4 +1,4 @@
-
+from character import name
 
 def wizardPath0():
     """
@@ -20,25 +20,23 @@ def wizardPath1():
     and present the user with three new options by using three integers.
     A while loop is also added to loop one of these choices.
     """
-
+    with open('stories/wizard_path1.txt') as f:
+            path1 = f.read()
+            print(path1.format(name))
     while True:
         print("What will you do?")
         print("1. Light the torch with magic ")
-        print("2. Light the torch with two rocks")
-        print("3. Don't light the torch and keep walking")
-        secondPathChoice = int(input("1, 2, 3\n"))
+        print("2. Don't light the torch and keep walking")
+        secondPathChoice = int(input("1, 2\n"))
         if secondPathChoice == 1:
-            print("The flame shines brightly for a second but is the put out by a mysterious force.")
+            wizardPath1_1()
+            break
         elif secondPathChoice == 2:
             wizardPath1_2()
-            break
-        elif secondPathChoice == 3:
-            wizardPath1_3()
-            break
 
 
 
-def wizardPath1_2():
+def wizardPath1_1():
     """
     Function to display the second path choice of path1
     and present the user with two new options by using two integers.
@@ -142,7 +140,7 @@ def wizardPath1_2_1_2():
 
 
 
-def wizardPath1_3():
+def wizardPath1_2():
     """
     Function to display the third path choice of path1
     and to end the game.
