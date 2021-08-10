@@ -41,12 +41,9 @@ def wizardPath1_1():
     Function to display the second path choice of path1
     and present the user with two new options by using two integers.
     """
-    print("The flame shines brightly and lights up the cave.")
-    print(f"{name} continues to walk further down in the cave.")
-    print(f"{name} gets to a cave room and in the middle of the room stands a big ogre")
-    print(f"The ogre twice the size of {name} seems to be asleep.")
-    print("Behind the ogre there is a big hole in the ground.")
-    print("What will you do?")
+    with open('stories/wizard_path1_1.txt') as f:
+            path1_1 = f.read()
+            print(path1_1.format(name))
     print("1. Attack the ogre")
     print("2. Sneak around the ogre")
     thirdPathChoice = int(input("1, 2\n"))
