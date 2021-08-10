@@ -1,0 +1,6 @@
+The flame shines brightly and lights up the cave.
+{0} continues to walk further down in the cave.
+{0} gets to a cave room and in the middle of the room stands a big ogre
+The ogre twice the size of {0} seems to be asleep.
+Behind the ogre there is a big hole in the ground.
+What will you do?

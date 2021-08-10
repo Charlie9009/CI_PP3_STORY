@@ -24,8 +24,8 @@ def warriorPath1():
             print(path1.format(name))
     while True:
         print("What will you do?")
-        print("1. Light the torch with magic ")
-        print("2. Don't light the torch and keep walking")
+        print("1. Don't light the torch and keep walking")
+        print("2. Light the torch with magic")
         secondPathChoice = int(input("1, 2\n"))
         if secondPathChoice == 1:
             warriorPath1_1()

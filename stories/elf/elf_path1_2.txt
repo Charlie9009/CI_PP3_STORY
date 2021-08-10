@@ -1,0 +1,2 @@
+{0} starts walking forward in the darkness not seeing anything.
+Suddenly a force pulls {0} backwards to the crossroads.

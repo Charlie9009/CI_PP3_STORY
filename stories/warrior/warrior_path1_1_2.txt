@@ -1,0 +1,3 @@
+As {0} quietly moves towards the hole the ogre wakes up and sprints at {0}.
+Before {0} has even reacted the ogre picks {0} up and throws {0} to the wall, knocking {0} out.
+Game Over.
