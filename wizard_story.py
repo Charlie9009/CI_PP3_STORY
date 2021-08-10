@@ -6,11 +6,9 @@ def wizardPath0():
     Function to display the intro of the story
     and present the user with two path options by using to integers.
     """
-    pathChoice = int(input("1, 2\n"))
+    pathChoice = int(input("1\n"))
     if pathChoice == 1:
         wizardPath1()
-    elif pathChoice == 2:
-        wizardPath2()
         
     return pathChoice
 
@@ -178,13 +176,12 @@ def wizardPath1_1_1_2():
 
 def wizardPath1_2():
     """
-    Function to display the third path choice of path1
-    and to end the game.
+    Function to display the second path choice of path1
+    and to loop the game.
     """
-    print(f"{name} starts walking forward in the darkness not seeing anything.")
-    print(f"Suddenly {name} hears a scrape.")
-    print(f"But before {name} can turn around something grabs the ankle and pulls hard, knocking {name} out.")
-    print("Game Over.")
-    print("Want to try again?")
+    with open('stories/wizard_path1_2.txt') as f:
+            path1_2 = f.read()
+            print(path1_2.format(name))
+
 
 
