@@ -146,18 +146,9 @@ def wizardPath1_1_1_2():
     and present the user with two new options by using two integers.
     Code is added to send back information to google sheet when users finish the game.
     """
-    print(f"{name} lands and quickly stands, ready to fight if any creature would come out of the dark.")
-    print("The flame from the torch now lights up this room")
-    print(f"there right in front of {name} a golden horn with the face of a dragon on the side.")
-    print("This is the artefact caldun!")
-    print(f"{name} starts walking forward but is stopped by a women who just appeared from thin air.")
-    print("The woman had uncombed hair, rugged grey clothes and no expression on her face.")
-    print("Suddenly the old lady started speaking.")
-    print("- You seek caldun.")
-    print(f"- Yes. {name} replied.")
-    print("- You will then have 2 choices in front of you, either you will take the caldun and become the most powerful wizard")
-    print("- Or you will leave and be satisfied with your life as it is. the lady said.")
-    print("What will you do?")
+    with open('stories/wizard_path1_1_1_2.txt') as f:
+            path1_1_1_2 = f.read()
+            print(path1_1_1_2.format(name))
     print("1. Take the Caldun")
     print("2. Leave")
     fifthPathChoice = int(input("1, 2\n"))
@@ -169,11 +160,10 @@ def wizardPath1_1_1_2():
         finishedPath1 = int(finished_game.cell(2, 1).value)
         finishedPath1 += 1
         finished_game.update_cell(2, 1, finishedPath1)
-        print(f"{name} picks up the caldun and suddenly feels a rush of energy flowing thru the body.")
-        print("The room starts to light up more and more as every sound intensifies.")
-        print(f"{name} starts to scream as the energy starts to pierce thru the body.")
-        print(f"Suddenly the room is quiet, the lady is gone and {name} has dissapeared.")
-        print(f"The room is completely empty and everything you can hear is the eco of {name}s screams fading away.")
+
+        with open('stories/wizard_end_1.txt') as f:
+            end1 = f.read()
+            print(end1.format(name))
     elif fifthPathChoice == 2:
         """
         Get the value for path2 cell from the worksheet, turn it to an int so it can be incremented by 1
@@ -182,9 +172,10 @@ def wizardPath1_1_1_2():
         finishedPath2 = int(finished_game.cell(2, 2).value)
         finishedPath2 += 1
         finished_game.update_cell(2, 2, finishedPath2)
-        print(f"As {name} is walking out of the cave and the sun is shining upon {name} a calm sensation emerges.")
-        print(f"What the lady had said was true, a satisfaction within {name} had taken hold.")
-        print(f"Embracing that feeling {name} starts walking home.")
+
+        with open('stories/wizard_end_2.txt') as f:
+            end2 = f.read()
+            print(end2.format(name))
 
 
 

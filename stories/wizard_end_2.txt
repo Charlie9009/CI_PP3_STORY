@@ -1,0 +1,3 @@
+print(f"As {name} is walking out of the cave and the sun is shining upon {name} a calm sensation emerges.")
+        print(f"What the lady had said was true, a satisfaction within {name} had taken hold.")
+        print(f"Embracing that feeling {name} starts walking home.")
