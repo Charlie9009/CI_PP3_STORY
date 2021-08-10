@@ -1,3 +1,4 @@
-As {0} is walking out of the cave and the sun is shining upon {0} a calm sensation emerges.
-What the lady had said was true, a satisfaction within {0} had taken hold.
-Embracing that feeling {0} starts walking home.
+As {0} is walking out of the cave and the sun is shining upon {0} a bad sensation emerges.
+What the lady had said was not true, {0} starts to walk back to the entrance.
+The entrance to the cave has vanished.
+{0} starts to scream as the ground starts to crumble. 
