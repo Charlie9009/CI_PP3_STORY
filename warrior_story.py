@@ -43,21 +43,21 @@ def warriorPath1_1():
     with open('stories/warrior/warrior_path1_1.txt') as f:
             path1_1 = f.read()
             print(path1_1.format(name))
-    print("1. Attack the ogre")
-    print("2. Sneak around the ogre")
-    thirdPathChoice = int(input("1, 2\n"))
-    if thirdPathChoice == 1:
-        warriorBattle()
-    elif thirdPathChoice == 2:
-        warriorPath1_1_2()
-        
-    return thirdPathChoice
+    while True:
+        print("1. Attack the ogre")
+        print("2. Sneak around the ogre")
+        thirdPathChoice = int(input("1, 2\n"))
+        if thirdPathChoice == 1:
+            warriorBattle()
+            break
+        elif thirdPathChoice == 2:
+            warriorPath1_1_2()
 
 
 def warriorBattle():
-    print("The ogre wakes up and starts running at you.")
+    print("The ogre starts running at you.")
     print("What will you do?")
-    print("1. Use magic to throw a rock at the ogre")
+    print("1. Pick up a big rock and throw it at the ogre")
     print("2. Jump out of the way")
     battleChoice = int(input("1, 2\n"))
     if battleChoice == 1:
@@ -69,13 +69,12 @@ def warriorBattle():
 
 def battlePath1():
     print("Your throw a rock at the ogre hitting it in the head.")
-    print(f"Your mana is now {hero_data[1] - 25}")
     print(f"The ogres health is now ")
-    print("The ogre swings it's arm and hits you knocking you back.")
-    print(f"Your health is now {hero_data[0] - 25}")
+    print("The ogre swings it's arm and hits you barely knocking you back.")
+    print(f"Your health is now {hero_data[0] - 10}")
     print("What will you do?")
     print("1. Wait for ogre to make the next move")
-    print("2. Use magic to push ogre in to wall")
+    print("2. Charge at the ogre")
     battleChoice = int(input("1, 2\n"))
     if battleChoice == 1:
         battlePath1_1()
@@ -84,24 +83,27 @@ def battlePath1():
 
 
 def battlePath1_1():
-    print("Before you can react the ogre runs at you pushing you in to the wall knocking you out.")
-    print(f"Your health is now {hero_data[0] - 50}")
-    print("You are dead.")
+    print("Before you can react the ogre runs at you pushing you in to the wall.")
+    print(f"Your health is now {hero_data[0] - 60}")
+    print("As you are trapped between the wall and the ogre you manage to punch the ogre in the face.")
+    print("The ogres health is now ")
+    print("The ogre is dead")
+    warriorPath1_1_1()
 
 
 def battlePath1_2():
-    print("You stand feeling the magic flowing thru you, the ogre start running for you")
-    print("You push with you magic as the cave shakes, the ogres feet leaves the ground")
-    print("The ogre flies backwards and hits the cave wall.")
+    print("You charge the ogre with full force.")
+    print("You smash into the ogre and with the warrior strength the ogres feet leaves the ground")
+    print("You push the ogre straight into the cave wall and as the ogre smashes in to it it collapses on the ground")
     print(f"The ogres health is now")
     print("The ogre is dead")
-    print(f"Your mana is now {hero_data[1] - 50}")
+    print(f"Your health is now {hero_data[0] - 80}")
     warriorPath1_1_1()
 
 def battlePath2():
     print("As the ogre charges at you, you jump to get out of the way.")
     print("The ogre catches you mid air, and slams you in to the wall.")
-    print(f"Your health is now {hero_data[0] - 50}")
+    print(f"Your health is now {hero_data[0] - 100}")
     print("You are dead.")
 
 
