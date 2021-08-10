@@ -19,15 +19,26 @@ finished_game = SHEET.worksheet("finished_game")
 
 data = finished_game.get_all_values()
 
-def introWizard():
+
+
+def intro():
     if characterSelect == 1:
         with open('stories/wizard_intro.txt') as f:
+            intro = f.read()
+            print(intro.format(name))
+    elif characterSelect == 2:
+        with open('stories/warrior_intro.txt') as f:
+            intro = f.read()
+            print(intro.format(name))
+    elif characterSelect == 3:
+        with open('stories/elf_intro.txt') as f:
             intro = f.read()
             print(intro.format(name))
 
 
 
-def intro():
+
+def path0():
     """
     Function to display the intro of the story
     and present the user with two path options by using to integers.
@@ -184,6 +195,6 @@ def path1_3():
 
 
 
-introWizard()
 intro()
+path0()
 
