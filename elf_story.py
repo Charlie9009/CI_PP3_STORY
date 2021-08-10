@@ -24,7 +24,7 @@ def elfPath1():
             print(path1.format(name))
     while True:
         print("What will you do?")
-        print("1. Light the torch with magic ")
+        print("1. Light the torch by scraping two rocks together")
         print("2. Don't light the torch and keep walking")
         secondPathChoice = int(input("1, 2\n"))
         if secondPathChoice == 1:
@@ -43,7 +43,7 @@ def elfPath1_1():
     with open('stories/elf/elf_path1_1.txt') as f:
             path1_1 = f.read()
             print(path1_1.format(name))
-    print("1. Attack the ogre")
+    print("1. Talk to the ogre")
     print("2. Sneak around the ogre")
     thirdPathChoice = int(input("1, 2\n"))
     if thirdPathChoice == 1:
@@ -57,8 +57,8 @@ def elfPath1_1():
 def elfBattle():
     print("The ogre wakes up and starts running at you.")
     print("What will you do?")
-    print("1. Use magic to throw a rock at the ogre")
-    print("2. Jump out of the way")
+    print("1. Offer your gold neckless to the ogre")
+    print("2. Attack the ogre")
     battleChoice = int(input("1, 2\n"))
     if battleChoice == 1:
         battlePath1()
@@ -68,40 +68,18 @@ def elfBattle():
 
 
 def battlePath1():
-    print("Your throw a rock at the ogre hitting it in the head.")
-    print(f"Your mana is now {hero_data[1] - 25}")
-    print(f"The ogres health is now ")
-    print("The ogre swings it's arm and hits you knocking you back.")
-    print(f"Your health is now {hero_data[0] - 25}")
-    print("What will you do?")
-    print("1. Wait for ogre to make the next move")
-    print("2. Use magic to push ogre in to wall")
-    battleChoice = int(input("1, 2\n"))
-    if battleChoice == 1:
-        battlePath1_1()
-    elif battleChoice == 2:
-        battlePath1_2()
-
-
-def battlePath1_1():
-    print("Before you can react the ogre runs at you pushing you in to the wall knocking you out.")
-    print(f"Your health is now {hero_data[0] - 50}")
-    print("You are dead.")
-
-
-def battlePath1_2():
-    print("You stand feeling the magic flowing thru you, the ogre start running for you")
-    print("You push with you magic as the cave shakes, the ogres feet leaves the ground")
-    print("The ogre flies backwards and hits the cave wall.")
-    print(f"The ogres health is now")
-    print("The ogre is dead")
-    print(f"Your mana is now {hero_data[1] - 50}")
+    print("As the ogre charges at you, you offer it your gold neckless.")
+    print("The ogre stops in it's tracks and looks at it with awe.")
+    print("- Wooow not one person has offered me gold in centuries. The ogre said.")
+    print("- You are free to pass. He said")
     elfPath1_1_1()
+
+
 
 def battlePath2():
     print("As the ogre charges at you, you jump to get out of the way.")
     print("The ogre catches you mid air, and slams you in to the wall.")
-    print(f"Your health is now {hero_data[0] - 50}")
+    print(f"Your health is now {hero_data[0] - 25}")
     print("You are dead.")
 
 
