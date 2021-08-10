@@ -1,6 +1,8 @@
-The flame shines brightly and lights up the cave.
-{0} continues to walk further down in the cave.
-{0} gets to a cave room and in the middle of the room stands a big ogre
-The ogre twice the size of {0} seems to be asleep.
-Behind the ogre there is a big hole in the ground.
+{0} continues to walk further down in the cave, it is so dark {0} cant see anything.
+{0} keeps walking in the dark and suddenly stops when {0} hears a faint snore.
+The snore get louder for every step, now the snore is almost deafening.
+As {0} is slowly walking forward {0} kicks a rock which makes a loud clank.
+The snore stops...
+Suddenly a flame is lit and there a big ogre twice the size of {0} is standing.
+Behind the ogre {0} notices there is a big hole in the ground.
 What will you do?
