@@ -1,5 +1,5 @@
 {0} lands and quickly stands, ready to fight if any creature would come out of the dark.
-The flame from the torch now lights up this room
+A flame now lights up this room
 there right in front of {0} a golden horn with the face of a dragon on the side.
 This is the artefact caldun!
 {0} starts walking forward but is stopped by a women who just appeared from thin air.
@@ -9,4 +9,5 @@ Suddenly the old lady started speaking.
 - Yes. {0} replied.
 - You will then have 2 choices in front of you, either you will take the caldun and become the most powerful wizard
 - Or you will leave and be satisfied with your life as it is. the lady said.
+- But be careful, if you are not strong with magic you might not get what you long for.
 What will you do?

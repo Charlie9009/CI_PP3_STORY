@@ -133,7 +133,7 @@ def warriorPath1_1_1():
 def warriorPath1_1_2():
     """
     Function to display the second path choice of path1_2
-    and to end the game.
+    and to loop the choice.
     """
     with open('stories/warrior/warrior_path1_1_2.txt') as f:
             path1_1_2 = f.read()

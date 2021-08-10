@@ -9,4 +9,5 @@ Suddenly the old lady started speaking.
 - Yes. {0} replied.
 - You will then have 2 choices in front of you, either you will take the caldun and become the most powerful wizard
 - Or you will leave and be satisfied with your life as it is. the lady said.
+- But be careful, if you are not strong with magic you might not get what you long for.
 What will you do?
