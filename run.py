@@ -5,7 +5,7 @@ from wizard_story import wizardPath0
 
 def intro():
     if characterSelect == 1:
-        with open('stories/wizard_intro.txt') as f:
+        with open('stories/wizard/wizard_intro.txt') as f:
             intro = f.read()
             print(intro.format(name))
             wizardPath0()

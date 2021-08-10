@@ -19,7 +19,7 @@ def wizardPath1():
     and present the user with three new options by using three integers.
     A while loop is also added to loop one of these choices.
     """
-    with open('stories/wizard_path1.txt') as f:
+    with open('stories/wizard/wizard_path1.txt') as f:
             path1 = f.read()
             print(path1.format(name))
     while True:
@@ -40,7 +40,7 @@ def wizardPath1_1():
     Function to display the second path choice of path1
     and present the user with two new options by using two integers.
     """
-    with open('stories/wizard_path1_1.txt') as f:
+    with open('stories/wizard/wizard_path1_1.txt') as f:
             path1_1 = f.read()
             print(path1_1.format(name))
     print("1. Attack the ogre")
@@ -112,7 +112,7 @@ def wizardPath1_1_1():
     and present the user with two new options by using two integers.
     A while loop is also added to loop one of these choices.
     """
-    with open('stories/wizard_path1_1_1.txt') as f:
+    with open('stories/wizard/wizard_path1_1_1.txt') as f:
             path1_1_1 = f.read()
             print(path1_1_1.format(name))
     while True:
@@ -133,7 +133,7 @@ def wizardPath1_1_2():
     Function to display the second path choice of path1_2
     and to end the game.
     """
-    with open('stories/wizard_path1_1_2.txt') as f:
+    with open('stories/wizard/wizard_path1_1_2.txt') as f:
             path1_1_2 = f.read()
             print(path1_1_2.format(name))
 
@@ -145,7 +145,7 @@ def wizardPath1_1_1_2():
     and present the user with two new options by using two integers.
     Code is added to send back information to google sheet when users finish the game.
     """
-    with open('stories/wizard_path1_1_1_2.txt') as f:
+    with open('stories/wizard/wizard_path1_1_1_2.txt') as f:
             path1_1_1_2 = f.read()
             print(path1_1_1_2.format(name))
     print("1. Take the Caldun")
@@ -158,7 +158,7 @@ def wizardPath1_1_1_2():
         """
         update_sheet_ending_1()
 
-        with open('stories/wizard_end_1.txt') as f:
+        with open('stories/wizard/wizard_end_1.txt') as f:
             end1 = f.read()
             print(end1.format(name))
     elif fifthPathChoice == 2:
@@ -168,7 +168,7 @@ def wizardPath1_1_1_2():
         """
         update_sheet_ending_2()
 
-        with open('stories/wizard_end_2.txt') as f:
+        with open('stories/wizard/wizard_end_2.txt') as f:
             end2 = f.read()
             print(end2.format(name))
 
@@ -179,7 +179,7 @@ def wizardPath1_2():
     Function to display the second path choice of path1
     and to loop the game.
     """
-    with open('stories/wizard_path1_2.txt') as f:
+    with open('stories/wizard/wizard_path1_2.txt') as f:
             path1_2 = f.read()
             print(path1_2.format(name))
 
