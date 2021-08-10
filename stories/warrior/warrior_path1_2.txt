@@ -1,2 +1,1 @@
-{0} starts walking forward in the darkness not seeing anything.
-Suddenly a force pulls {0} backwards to the crossroads.
+{0}s magic is not strong enough to light the fire.
