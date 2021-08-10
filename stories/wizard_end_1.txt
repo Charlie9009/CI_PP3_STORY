@@ -1,5 +1,5 @@
-print(f"{name} picks up the caldun and suddenly feels a rush of energy flowing thru the body.")
-        print("The room starts to light up more and more as every sound intensifies.")
-        print(f"{name} starts to scream as the energy starts to pierce thru the body.")
-        print(f"Suddenly the room is quiet, the lady is gone and {name} has dissapeared.")
-        print(f"The room is completely empty and everything you can hear is the eco of {name}s screams fading away.")
+{0} picks up the caldun and suddenly feels a rush of energy flowing thru the body.
+The room starts to light up more and more as every sound intensifies.
+{0} starts to scream as the energy starts to pierce thru the body.
+Suddenly the room is quiet, the lady is gone and {0} has dissapeared.
+The room is completely empty and everything you can hear is the eco of {0}s screams fading away.
