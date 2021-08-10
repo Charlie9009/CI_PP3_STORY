@@ -93,7 +93,7 @@ def battlePath1_2():
     print("You stand feeling the magic flowing thru you, the ogre start running for you")
     print("You push with you magic as the cave shakes, the ogres feet leaves the ground")
     print("The ogre flies backwards and hits the cave wall.")
-    print(f"The ogres health is now")
+    print(f"The ogres health is now {ogre_data - 100}")
     print("The ogre is dead")
     print(f"Your mana is now {hero_data[1] - 50}")
     wizardPath1_1_1()

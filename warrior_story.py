@@ -1,4 +1,4 @@
-from character import name, hero_data
+from character import name, hero_data, ogre_data
 from gmail_sheet import update_sheet_ending_1, update_sheet_ending_2
 
 def warriorPath0():
@@ -69,7 +69,7 @@ def warriorBattle():
 
 def battlePath1():
     print("Your throw a rock at the ogre hitting it in the head.")
-    print(f"The ogres health is now ")
+    print(f"The ogres health is now {ogre_data - 50}")
     print("The ogre swings it's arm and hits you barely knocking you back.")
     print(f"Your health is now {hero_data[0] - 10}")
     print("What will you do?")
@@ -86,7 +86,7 @@ def battlePath1_1():
     print("Before you can react the ogre runs at you pushing you in to the wall.")
     print(f"Your health is now {hero_data[0] - 60}")
     print("As you are trapped between the wall and the ogre you manage to punch the ogre in the face.")
-    print("The ogres health is now ")
+    print("The ogres health is now {ogre_data - 100}")
     print("The ogre is dead")
     warriorPath1_1_1()
 
@@ -95,7 +95,7 @@ def battlePath1_2():
     print("You charge the ogre with full force.")
     print("You smash into the ogre and with the warrior strength the ogres feet leaves the ground")
     print("You push the ogre straight into the cave wall and as the ogre smashes in to it it collapses on the ground")
-    print(f"The ogres health is now")
+    print(f"The ogres health is now {ogre_data - 100}")
     print("The ogre is dead")
     print(f"Your health is now {hero_data[0] - 80}")
     warriorPath1_1_1()
