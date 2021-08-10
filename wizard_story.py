@@ -1,4 +1,4 @@
-from character import name, hero_data
+from character import name, hero_data, ogre_data
 from gmail_sheet import update_sheet_ending_1, update_sheet_ending_2
 
 def wizardPath0():
@@ -70,7 +70,7 @@ def wizardBattle():
 def battlePath1():
     print("Your throw a rock at the ogre hitting it in the head.")
     print(f"Your mana is now {hero_data[1] - 25}")
-    print(f"The ogres health is now ")
+    print(f"The ogres health is now {ogre_data - 30}")
     print("The ogre swings it's arm and hits you knocking you back.")
     print(f"Your health is now {hero_data[0] - 25}")
     print("What will you do?")

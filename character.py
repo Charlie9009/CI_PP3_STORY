@@ -34,3 +34,18 @@ hero_data = choseClass()
 hero = character(hero_data[0], hero_data[1], hero_data[2])
 print("Your stats are...")
 pprint(vars(hero))
+
+
+
+class enemy:
+
+    def __init__(self, health):
+        self.health = health
+
+def ogreHealth():
+
+    health = 100
+
+    return health
+
+ogre_data = ogreHealth()
