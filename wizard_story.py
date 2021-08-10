@@ -1,4 +1,4 @@
-from character import name
+from character import name, hero_data
 
 def wizardPath0():
     """
@@ -48,13 +48,50 @@ def wizardPath1_1():
     print("2. Sneak around the ogre")
     thirdPathChoice = int(input("1, 2\n"))
     if thirdPathChoice == 1:
-        wizardPath1_2_1()
+        wizardBattle()
     elif thirdPathChoice == 2:
         wizardPath1_2_2()
         
     return thirdPathChoice
 
 
+def wizardBattle():
+    print("The ogre wakes up and starts running at you.")
+    print("What will you do?")
+    print("1. Use magic to throw a rock at the ogre")
+    print("2. Jump out of the way")
+    battleChoice = int(input("1, 2\n"))
+    if battleChoice == 1:
+        battlePath1()
+    elif battleChoice == 2:
+        battlePath2()
+
+
+
+def battlePath1():
+    print("Your throw a rock at the ogre hitting it in the head.")
+    print(f"Your mana is now {hero_data[1] - 25}")
+    print(f"The ogres health is now ")
+    print("The ogre swings it's arm and hits you knocking you back.")
+    print(f"Your health is now {hero_data[0] - 25}")
+    print("What will you do?")
+    print("1. Wait for ogre to make the next move")
+    print("2. Use magic to push ogre in to wall")
+    battleChoice = int(input("1, 2\n"))
+    if battleChoice == 1:
+        battlePath1_1()
+    elif battleChoice == 2:
+        battlepath1_2()
+
+
+def battlePath1_1():
+    print("Before you can react the ogre picks up the rock you used and throws it at you.")
+    print("The rock hits you knocking you backwards.")
+    print(f"Your health is now {hero_data[0] - 50}")
+    print("You are dead.")
+
+
+#wizardPath1_2_1()
 def wizardPath1_2_1():
     """
     Function to display the first path choice of path1_2
