@@ -1,0 +1,3 @@
+In the deep Veryovkina caves in Abkhazia year 1545 the elf {0} is looking for the legendary artefact caldun.
+{0} is ready to walk down in to the dark cave, {0} is building up courage.
+Press 1 to walk down the dark path
