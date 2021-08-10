@@ -1,6 +1,8 @@
 # Import Credentials and worksheet for Google Drive API.
 from character import choseClass, name, characterSelect
 from wizard_story import wizardPath0
+from warrior_story import warriorPath0
+from elf_story import elfPath0
 
 
 def intro():
@@ -10,13 +12,15 @@ def intro():
             print(intro.format(name))
             wizardPath0()
     elif characterSelect == 2:
-        with open('stories/warrior_intro.txt') as f:
+        with open('stories/warrior/warrior_intro.txt') as f:
             intro = f.read()
             print(intro.format(name))
+            warriorPath0()
     elif characterSelect == 3:
-        with open('stories/elf_intro.txt') as f:
+        with open('stories/elf/elf_intro.txt') as f:
             intro = f.read()
             print(intro.format(name))
+            elfPath0()
 
 
 
