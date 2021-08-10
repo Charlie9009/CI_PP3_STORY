@@ -50,7 +50,7 @@ def wizardPath1_1():
     if thirdPathChoice == 1:
         wizardBattle()
     elif thirdPathChoice == 2:
-        wizardPath1_2_2()
+        wizardPath1_1_2()
         
     return thirdPathChoice
 
@@ -95,8 +95,9 @@ def battlePath1_2():
     print("You push with you magic as the cave shakes, the ogres feet leaves the ground")
     print("The ogre flies backwards and hits the cave wall.")
     print(f"The ogres health is now")
+    print("The ogre is dead")
     print(f"Your mana is now {hero_data[1] - 50}")
-    wizardPath1_2_1()
+    wizardPath1_1_1()
 
 def battlePath2():
     print("As the ogre charges at you, you jump to get out of the way.")
@@ -106,15 +107,15 @@ def battlePath2():
 
 
 
-def wizardPath1_2_1():
+def wizardPath1_1_1():
     """
     Function to display the first path choice of path1_2
     and present the user with two new options by using two integers.
     A while loop is also added to loop one of these choices.
     """
-    print(f"{name} uses magic to lift a big rock with the mind and with a great force throws the rock  in the ogres head knocking it out.")
-    print(f"{name} moves quickly towards the hole in the ground still scared the ogre might wake.")
-    print(f"Now {name} stares down in to a dark hole.")
+    with open('stories/wizard_path1_1_1.txt') as f:
+            path1_1_1 = f.read()
+            print(path1_1_1.format(name))
     while True:
         print("What will you do?")
         print("1. Collect courage")
@@ -123,12 +124,12 @@ def wizardPath1_2_1():
         if fourthPathChoice == 1:
             print("You collected courage")
         elif fourthPathChoice == 2:
-            wizardPath1_2_1_2()
+            wizardPath1_1_1_2()
             break
 
 
 
-def wizardPath1_2_2():
+def wizardPath1_1_2():
     """
     Function to display the second path choice of path1_2
     and to end the game.
@@ -136,11 +137,10 @@ def wizardPath1_2_2():
     print(f"As {name} quietly moves towards the hole the ogre wakes up and sprints at {name}.")
     print(f"Before {name} has even reacted the ogre picks {name} up and throws {name} to the wall, knocking {name} out.")
     print("Game Over.")
-    print("Want to try again?")
 
 
 
-def wizardPath1_2_1_2():
+def wizardPath1_1_1_2():
     """
     Function to display the second path choice of path1_2_1
     and present the user with two new options by using two integers.
