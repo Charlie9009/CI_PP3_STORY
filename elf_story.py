@@ -96,7 +96,7 @@ def battlePath1_2():
     print(f"The ogres health is now")
     print("The ogre is dead")
     print(f"Your mana is now {hero_data[1] - 50}")
-    warriorPath1_1_1()
+    elfPath1_1_1()
 
 def battlePath2():
     print("As the ogre charges at you, you jump to get out of the way.")
