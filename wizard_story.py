@@ -1,4 +1,5 @@
 from character import name, hero_data
+from gmail_sheet import update_sheet_ending_1, update_sheet_ending_2
 
 def wizardPath0():
     """
@@ -157,9 +158,7 @@ def wizardPath1_1_1_2():
         Get the value for path1 cell from the worksheet, turn it to an int so it can be incremented by 1
         Send it back to update the sheet  
         """
-        finishedPath1 = int(finished_game.cell(2, 1).value)
-        finishedPath1 += 1
-        finished_game.update_cell(2, 1, finishedPath1)
+        update_sheet_ending_1()
 
         with open('stories/wizard_end_1.txt') as f:
             end1 = f.read()
@@ -169,9 +168,7 @@ def wizardPath1_1_1_2():
         Get the value for path2 cell from the worksheet, turn it to an int so it can be incremented by 1
         Send it back to update the sheet  
         """
-        finishedPath2 = int(finished_game.cell(2, 2).value)
-        finishedPath2 += 1
-        finished_game.update_cell(2, 2, finishedPath2)
+        update_sheet_ending_2()
 
         with open('stories/wizard_end_2.txt') as f:
             end2 = f.read()
