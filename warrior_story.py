@@ -1,16 +1,14 @@
 from character import name, hero_data, ogre_data
 from gmail_sheet import update_sheet_ending_1, update_sheet_ending_2
+from validation import validate_user_input
 
 def warriorPath0():
     """
     Function to display the intro of the story
     and present the user with two path options by using to integers.
     """
-    pathChoice = int(input("1\n"))
-    if pathChoice == 1:
+    if validate_user_input() == 1:
         warriorPath1()
-        
-    return pathChoice
 
 
 def warriorPath1():
@@ -86,7 +84,7 @@ def battlePath1_1():
     print("Before you can react the ogre runs at you pushing you in to the wall.")
     print(f"Your health is now {hero_data[0] - 60}")
     print("As you are trapped between the wall and the ogre you manage to punch the ogre in the face.")
-    print("The ogres health is now {ogre_data - 100}")
+    print(f"The ogres health is now {ogre_data - 100}")
     print("The ogre is dead")
     warriorPath1_1_1()
 
