@@ -1,13 +1,13 @@
 from character import name, hero_data, ogre_data
 from gmail_sheet import update_sheet_ending_1, update_sheet_ending_2
-from validation import validate_user_input
+from validation import validate_warrior_path0, validate_user_input
 
 def warriorPath0():
     """
     Function to display the intro of the story
     and present the user with two path options by using to integers.
     """
-    if validate_user_input() == 1:
+    if validate_warrior_path0() == 1:
         warriorPath1()
 
 
@@ -24,11 +24,11 @@ def warriorPath1():
         print("What will you do?")
         print("1. Don't light the torch and keep walking")
         print("2. Light the torch with magic")
-        secondPathChoice = int(input("1, 2\n"))
-        if secondPathChoice == 1:
+
+        if validate_user_input() == 1:
             warriorPath1_1()
             break
-        elif secondPathChoice == 2:
+        elif validate_user_input() == 2:
             warriorPath1_2()
 
 
