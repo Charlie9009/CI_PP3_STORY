@@ -29,6 +29,7 @@ def warriorPath1():
             warriorPath1_1()
             break
         elif secondPathChoice == 2:
+
             warriorPath1_2()
 
 

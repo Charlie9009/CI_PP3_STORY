@@ -77,60 +77,44 @@ refresh-toc -->
 
 4. As a user I want to be able to choose multiple paths.
 
+5. As a user I want to be able to chose multiple classes.
+
 
 #### Site owner goals
 
-5. As a site owner I want the user to be challenged.
+6. As a site owner I want the user to be challenged.
 
-6. As a site owner I want the user to experience an original story. 
+7. As a site owner I want the user to experience an original story. 
 
-7. As a site owner I want the user to have multiple path options.
+8. As a site owner I want the user to have multiple path options.
 
-8. As a site owner I want to be able to see how many has finished he story in either path.
-
-
-### Design
+9. As a site owner I want to be able to see how many has finished he story in either path.
 
 
+### Flowchart
 
-#### Colors
+* Below you can see the images of the flowchart.
 
-
-
-#### Fonts
-
-
-
-### Wireframes
-
-* Below you can see the images of the wireframes.
-
-<details><summary>The index/Game page.</summary>
-<img src="docs/wireframes/index_desktop.JPG">
+<details><summary>Flowchart</summary>
+<img src="">
 </details>
 
 
 ## Features
 
-* **The navigation bar and footer**
+* **Naming your character**
 
-* The navigation bar and the footer are present on all pages and are responsive. The navigation bar shows links to Game, Users and
-Contact. There is a feature of a border bottom to show up underneath the respective link to the page the user is on.
-This will help the user identify witch page they are on.
+* The first option the user will have is to name their character what they want.
 
 
 <br>
 <img src="">
-<br>
-<img src="">
+
 
 ### User stories covered by this feature:
 
-1. As a user I want an easy website where I can find the game fast.
-2. As a user I want to be able to see which page I am on.
-10. As a user I want to know the site owners process making the site.
-11. As a user I want to see the latest updates from the White House.
-17. I want the user to get feedback on which page they are on.
+3. As a user I want to be able to write my name in to the story.
+
 <hr>
 
 
