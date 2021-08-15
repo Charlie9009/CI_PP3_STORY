@@ -24,12 +24,13 @@ def warriorPath1():
         print("What will you do?")
         print("1. Don't light the torch and keep walking")
         print("2. Light the torch with magic")
-
-        if validate_user_input() == 1:
+        secondPathChoice = input(int("1, 2\n"))
+        if secondPathChoice == 1:
             warriorPath1_1()
             break
-        elif validate_user_input() == 2:
+        elif secondPathChoice == 2:
             warriorPath1_2()
+
 
 
 

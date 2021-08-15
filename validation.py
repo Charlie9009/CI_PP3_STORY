@@ -15,8 +15,8 @@ def validate_warrior_path0():
 def validate_user_input():
     while True:
         try:
-            pathChoice = int(input("1, 2\n"))
-            if pathChoice < 1 or pathChoice > 2:
+            pathChoices = int(input("1, 2\n"))
+            if pathChoices < 1 or pathChoices > 2:
                 raise ValueError("You can only use numbers 1 and 2 here")
         except ValueError as e:
             print(f"Invalid input: {e}, please try again")
