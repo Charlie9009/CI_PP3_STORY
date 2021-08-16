@@ -29,3 +29,24 @@ def update_sheet_ending_2():
     finishedPath2 = int(finished_game.cell(2, 2).value)
     finishedPath2 += 1
     finished_game.update_cell(2, 2, finishedPath2)
+
+
+def get_wizard_loot():
+    ogreItem = []
+    wizardLoot = finished_game.cell(2, 7).value
+    ogreItem.append(wizardLoot)
+    print(f"The ogre dropped a {ogreItem[0]}")
+
+
+def get_warrior_loot():
+    ogreItem = []
+    warriorLoot = finished_game.cell(2, 8).value
+    ogreItem.append(warriorLoot)
+    print(f"The ogre dropped a {ogreItem[0]}")
+
+
+def get_elf_loot():
+    ogreItem = []
+    elfLoot = finished_game.cell(2, 9).value
+    ogreItem.append(elfLoot)
+    print(f"The ogre gave you a {ogreItem[0]}")

@@ -1,5 +1,5 @@
 from character import name, hero_data
-from gmail_sheet import update_sheet_ending_1, update_sheet_ending_2
+from gmail_sheet import update_sheet_ending_1, update_sheet_ending_2, get_elf_loot
 
 def elfPath0():
     """
@@ -72,6 +72,7 @@ def battlePath1():
     print("The ogre stops in it's tracks and looks at it with awe.")
     print("- Wooow not one person has offered me gold in centuries. The ogre said.")
     print("- You are free to pass. He said")
+    get_elf_loot()
     elfPath1_1_1()
 
 

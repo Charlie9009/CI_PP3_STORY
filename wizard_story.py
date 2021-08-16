@@ -1,5 +1,5 @@
 from character import name, hero_data, ogre_data
-from gmail_sheet import update_sheet_ending_1, update_sheet_ending_2
+from gmail_sheet import update_sheet_ending_1, update_sheet_ending_2, get_wizard_loot
 
 def wizardPath0():
     """
@@ -96,6 +96,7 @@ def battlePath1_2():
     print(f"The ogres health is now {ogre_data - 100}")
     print("The ogre is dead")
     print(f"Your mana is now {hero_data[1] - 50}")
+    get_wizard_loot()
     wizardPath1_1_1()
 
 def battlePath2():

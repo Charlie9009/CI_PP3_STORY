@@ -1,5 +1,5 @@
 from character import name, hero_data, ogre_data
-from gmail_sheet import update_sheet_ending_1, update_sheet_ending_2
+from gmail_sheet import update_sheet_ending_1, update_sheet_ending_2, get_warrior_loot
 from validation import validate_warrior_path0, validate_user_input
 
 def warriorPath0():
@@ -24,13 +24,11 @@ def warriorPath1():
         print("What will you do?")
         print("1. Don't light the torch and keep walking")
         print("2. Light the torch with magic")
-        secondPathChoice = input(int("1, 2\n"))
+        secondPathChoice = int(input("1, 2\n"))
         if secondPathChoice == 1:
-            validate_user_input()
             warriorPath1_1()
             break
         elif secondPathChoice == 2:
-            validate_user_input()
             warriorPath1_2()
 
 
@@ -89,6 +87,7 @@ def battlePath1_1():
     print("As you are trapped between the wall and the ogre you manage to punch the ogre in the face.")
     print(f"The ogres health is now {ogre_data - 100}")
     print("The ogre is dead")
+    get_warrior_loot()
     warriorPath1_1_1()
 
 
@@ -99,6 +98,7 @@ def battlePath1_2():
     print(f"The ogres health is now {ogre_data - 100}")
     print("The ogre is dead")
     print(f"Your health is now {hero_data[0] - 80}")
+    get_warrior_loot()
     warriorPath1_1_1()
 
 def battlePath2():

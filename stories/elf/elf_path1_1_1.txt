@@ -1,3 +1,2 @@
-{0} looks at the now dead ogre trying to see if it is still moving.
-{0} does not see any sign of movement so {0} starts walking towards the hole in the ground.
+{0} starts walking towards the hole in the ground.
 Now {0} stares down in to a dark hole.
