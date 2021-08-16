@@ -1,5 +1,6 @@
 from character import NAME, hero_data, ogre_data
-from gmail_sheet import update_sheet_warrior_ending_1, update_sheet_warrior_ending_2, get_warrior_loot
+from gmail_sheet import update_sheet_warrior_ending_1, get_warrior_loot
+from gmail_sheet import update_sheet_warrior_ending_2
 from validation import validate_warrior_path0, validate_user_input
 
 
@@ -96,9 +97,11 @@ def warriorBattle1_1():
     Function is called to present loot dropped from ogre
     Function is called to continue the story.
     """
-    print("Before you can react the ogre runs at you pushing you in to the wall.")
+    print("Before you can react the ogre runs at you,")
+    print("pushing you in to the wall.")
     print(f"Your health is now {hero_data[0] - 60}")
-    print("As you are trapped between the wall and the ogre you manage to punch the ogre in the face.")
+    print("As you are trapped between the wall and the ogre,")
+    print("you manage to punch the ogre in the face.")
     print(f"The ogres health is now {ogre_data - 100}")
     print("The ogre is dead")
     get_warrior_loot()
@@ -113,8 +116,10 @@ def warriorBattle1_2():
     Function is called to continue the story.
     """
     print("You charge the ogre with full force.")
-    print("You smash into the ogre and with the warrior strength the ogres feet leaves the ground")
-    print("You push the ogre straight into the cave wall and as the ogre smashes in to it it collapses on the ground")
+    print("You smash into the ogre,")
+    print("with the warrior strength the ogres feet leaves the ground")
+    print("You push the ogre straight into the cave wall,")
+    print("as the ogre smashes in to it, it collapses on the ground")
     print(f"The ogres health is now {ogre_data - 100}")
     print("The ogre is dead")
     print(f"Your health is now {hero_data[0] - 80}")
@@ -136,7 +141,7 @@ def warriorBattle2():
 
 def warriorPath1_1_1():
     """
-    Function to display the continuation of warriorBattle1_1 and warriorBattle1_2
+    Function to display the continuation of warriorBattle1_1, warriorBattle1_2
     and present the user with two new options by using two integers.
     A while loop is also added to loop one of these choices.
     """
@@ -202,4 +207,3 @@ def warriorPath1_2():
     with open('stories/warrior/warrior_path1_2.txt') as f:
             path1_2 = f.read()
             print(path1_2.format(NAME))
-            
