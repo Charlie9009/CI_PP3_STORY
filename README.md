@@ -53,17 +53,17 @@ refresh-toc -->
 
 ## Project goals
 
-
+* I want to create a challenging game where a user can pick multiple classes and have multiple path choices. 
 
 ## User experience
 
 ### Target audience
 
-
+* Anyone who wants to play a fun and challenging game.
 
 ### User stories
 
-1. As a user I want an entertaining and fun story.
+1. As a user I want an original story.
 
 2. As a user I want to be challenged when playing the game.
 
@@ -73,7 +73,6 @@ refresh-toc -->
 
 5. As a user I want to be able to chose multiple classes.
 
-
 #### Site owner goals
 
 6. As a site owner I want the user to be challenged.
@@ -82,8 +81,9 @@ refresh-toc -->
 
 8. As a site owner I want the user to have multiple path options.
 
-9. As a site owner I want to be able to see how many has finished he story in either path.
+9. As a site owner I want to be able to see how many has finished the story in either path.
 
+10. As a site owner I want to have a loot system for the user.
 
 ### Flowchart
 
