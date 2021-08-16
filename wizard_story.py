@@ -65,13 +65,13 @@ def wizardBattle():
     print("2. Jump out of the way")
     battleChoice = int(input("1, 2\n"))
     if battleChoice == 1:
-        battlePath1()
+        wizardBattle1()
     elif battleChoice == 2:
-        battlePath2()
+        wizardBattle2()
 
 
 
-def battlePath1():
+def wizardBattle1():
     """
     Function to display the continuation of wizardBattle,
     getting hero_data and ogre_data to display health and mana.
@@ -87,18 +87,18 @@ def battlePath1():
     print("2. Use magic to push ogre in to wall")
     battleChoice = int(input("1, 2\n"))
     if battleChoice == 1:
-        battlePath1_1()
+        wizardBattle1_1()
     elif battleChoice == 2:
-        battlePath1_2()
+        wizardBattle1_2()
 
 
-def battlePath1_1():
+def wizardBattle1_1():
     print("Before you can react the ogre runs at you pushing you in to the wall knocking you out.")
     print(f"Your health is now {hero_data[0] - 50}")
     print("You are dead.")
 
 
-def battlePath1_2():
+def wizardBattle1_2():
     print("You stand feeling the magic flowing thru you, the ogre start running for you")
     print("You push with you magic as the cave shakes, the ogres feet leaves the ground")
     print("The ogre flies backwards and hits the cave wall.")
@@ -108,7 +108,7 @@ def battlePath1_2():
     get_wizard_loot()
     wizardPath1_1_1()
 
-def battlePath2():
+def wizardBattle2():
     print("As the ogre charges at you, you jump to get out of the way.")
     print("The ogre catches you mid air, and slams you in to the wall.")
     print(f"Your health is now {hero_data[0] - 50}")
