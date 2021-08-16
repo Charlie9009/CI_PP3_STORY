@@ -80,6 +80,10 @@ def update_sheet_elf_ending_2():
 
 
 def get_wizard_loot():
+    """
+    Function to get wizard loot value from google sheets,
+    add it to a list and print it to the user to show dropped loot.
+    """
     ogreItem = []
     wizardLoot = finished_game.cell(2, 7).value
     ogreItem.append(wizardLoot)
@@ -87,6 +91,10 @@ def get_wizard_loot():
 
 
 def get_warrior_loot():
+    """
+    Function to get warrior loot value from google sheets,
+    add it to a list and print it to the user to show dropped loot.
+    """
     ogreItem = []
     warriorLoot = finished_game.cell(2, 8).value
     ogreItem.append(warriorLoot)
@@ -94,6 +102,10 @@ def get_warrior_loot():
 
 
 def get_elf_loot():
+    """
+    Function to get elf loot value from google sheets,
+    add it to a list and print it to the user to show dropped loot.
+    """
     ogreItem = []
     elfLoot = finished_game.cell(2, 9).value
     ogreItem.append(elfLoot)
