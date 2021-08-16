@@ -3,8 +3,8 @@ from gmail_sheet import update_sheet_wizard_ending_1, update_sheet_wizard_ending
 
 def wizardPath0():
     """
-    Function to display the intro of the story
-    and present the user with two path options by using to integers.
+    Function to display the first choice in the story.
+    Presenting the user with the number 1 to continue with a new function.
     """
     pathChoice = int(input("1\n"))
     if pathChoice == 1:
@@ -15,8 +15,8 @@ def wizardPath0():
 
 def wizardPath1():
     """
-    Function to display the first path choice of intro
-    and present the user with three new options by using three integers.
+    Function to display the continuation of wizardPath0
+    and present the user with two new options by using two integers.
     A while loop is also added to loop one of these choices.
     """
     with open('stories/wizard/wizard_path1.txt') as f:
