@@ -60,13 +60,13 @@ def warriorBattle():
     print("2. Jump out of the way")
     battleChoice = int(input("1, 2\n"))
     if battleChoice == 1:
-        battlePath1()
+        warriorBattle1()
     elif battleChoice == 2:
-        battlePath2()
+        warriorBattle2()
 
 
 
-def battlePath1():
+def warriorBattle1():
     print("Your throw a rock at the ogre hitting it in the head.")
     print(f"The ogres health is now {ogre_data - 50}")
     print("The ogre swings it's arm and hits you barely knocking you back.")
@@ -76,12 +76,12 @@ def battlePath1():
     print("2. Charge at the ogre")
     battleChoice = int(input("1, 2\n"))
     if battleChoice == 1:
-        battlePath1_1()
+        warriorBattle1_1()
     elif battleChoice == 2:
-        battlePath1_2()
+        warriorBattle1_2()
 
 
-def battlePath1_1():
+def warriorBattle1_1():
     print("Before you can react the ogre runs at you pushing you in to the wall.")
     print(f"Your health is now {hero_data[0] - 60}")
     print("As you are trapped between the wall and the ogre you manage to punch the ogre in the face.")
@@ -91,7 +91,7 @@ def battlePath1_1():
     warriorPath1_1_1()
 
 
-def battlePath1_2():
+def warriorBattle1_2():
     print("You charge the ogre with full force.")
     print("You smash into the ogre and with the warrior strength the ogres feet leaves the ground")
     print("You push the ogre straight into the cave wall and as the ogre smashes in to it it collapses on the ground")
@@ -101,7 +101,7 @@ def battlePath1_2():
     get_warrior_loot()
     warriorPath1_1_1()
 
-def battlePath2():
+def warriorBattle2():
     print("As the ogre charges at you, you jump to get out of the way.")
     print("The ogre catches you mid air, and slams you in to the wall.")
     print(f"Your health is now {hero_data[0] - 100}")
