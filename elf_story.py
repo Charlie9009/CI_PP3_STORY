@@ -1,5 +1,6 @@
 from character import NAME, hero_data
-from gmail_sheet import update_sheet_elf_ending_1, update_sheet_elf_ending_2, get_elf_loot
+from gmail_sheet import update_sheet_elf_ending_1, get_elf_loot
+from gmail_sheet import update_sheet_elf_ending_2
 
 
 def elfPath0():
@@ -10,7 +11,7 @@ def elfPath0():
     pathChoice = int(input("1\n"))
     if pathChoice == 1:
         elfPath1()
-        
+
     return pathChoice
 
 
@@ -50,7 +51,7 @@ def elfPath1_1():
         elfBattle()
     elif thirdPathChoice == 2:
         elfPath1_1_2()
-        
+
     return thirdPathChoice
 
 
@@ -78,8 +79,8 @@ def elfBattle1():
     """
     print("As the ogre charges at you, you offer it your gold neckless.")
     print("The ogre stops in it's tracks and looks at it with awe.")
-    print("- Wooow not one person has offered me gold in centuries. The ogre said.")
-    print("- You are free to pass. He said")
+    print("- Wooow not one person has offered me gold in centuries,")
+    print("- you are free to pass. The ogre said")
     get_elf_loot()
     elfPath1_1_1()
 
