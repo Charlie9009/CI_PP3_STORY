@@ -37,7 +37,7 @@ def wizardPath1():
 
 def wizardPath1_1():
     """
-    Function to display the second path choice of path1
+    Function to display the continuation of wizardPath1
     and present the user with two new options by using two integers.
     """
     with open('stories/wizard/wizard_path1_1.txt') as f:
@@ -55,6 +55,10 @@ def wizardPath1_1():
 
 
 def wizardBattle():
+    """
+    Function to display the continuation of wizardPath1_1
+    and present the user with two new options by using two integers.
+    """
     print("The ogre wakes up and starts running at you.")
     print("What will you do?")
     print("1. Use magic to throw a rock at the ogre")
@@ -68,6 +72,11 @@ def wizardBattle():
 
 
 def battlePath1():
+    """
+    Function to display the continuation of wizardBattle,
+    getting hero_data and ogre_data to display health and mana.
+    and present the user with two new options by using two integers.
+    """
     print("Your throw a rock at the ogre hitting it in the head.")
     print(f"Your mana is now {hero_data[1] - 25}")
     print(f"The ogres health is now {ogre_data - 30}")
