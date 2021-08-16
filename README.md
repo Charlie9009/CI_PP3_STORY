@@ -124,15 +124,17 @@ refresh-toc -->
 
 ### Languages
 
-* HTML
-
-* CSS
-
-* JAVASCRIPT
+* Python
 
 ## Libraries and programs
 
+* diagrams.net for creating flow chart.
 
+* Github
+
+* Gitpod
+
+* VS code
 
 ## Testing
 
