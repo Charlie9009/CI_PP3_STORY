@@ -1,6 +1,6 @@
 from pprint import pprint
 
-
+# First choices for user
 NAME = input("What is your name?\n")
 print("Are you a Wizard, Warrior or an elf?")
 print("1. Wizard/ 2. Warrior/ 3. Elf")
