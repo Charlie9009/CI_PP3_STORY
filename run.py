@@ -1,5 +1,5 @@
-# Import Credentials and worksheet for Google Drive API.
-from character import choseClass, name, characterSelect
+from character import name, characterSelect
+# Import continuation of stories
 from wizard_story import wizardPath0
 from warrior_story import warriorPath0
 from elf_story import elfPath0
@@ -23,8 +23,4 @@ def intro():
             elfPath0()
 
 
-
-
 intro()
-
-
