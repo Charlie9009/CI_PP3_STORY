@@ -14,7 +14,11 @@ class character:
 
 
 def choseClass():
-
+    """
+    Create dictionaries containing clothes for classes.
+    Add if/else to print out different classes depending on user choice.
+    Set health, mana and mind for different classes and return it.
+    """
     wizardClothes = {
         "head": "A blue pointy hat",
         "torso": "A red cape",
@@ -34,6 +38,7 @@ def choseClass():
         "feet": "Black smooth shoes"
     }
     if characterSelect == 1:
+        # Wizard choice
         health = 50
         mana = 100
         mind = 50
@@ -43,6 +48,7 @@ def choseClass():
             print(wizardClothes[wizard])
 
     elif characterSelect == 2:
+        # Warrior choice
         health = 100
         mana = 25
         mind = 50
@@ -52,6 +58,7 @@ def choseClass():
             print(warriorClothes[warrior])
 
     elif characterSelect == 3:
+        # Elf choice
         health = 25
         mana = 50
         mind = 100
@@ -69,13 +76,17 @@ pprint(vars(hero))
 
 
 class enemy:
-
+    """
+    Declare class of enemy.
+    """
     def __init__(self, health):
         self.health = health
 
 
 def ogreHealth():
-
+    """
+    Set ogre health and return it.
+    """
     health = 100
 
     return health
