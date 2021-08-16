@@ -1,5 +1,5 @@
 from character import name, hero_data, ogre_data
-from gmail_sheet import update_sheet_ending_1, update_sheet_ending_2, get_warrior_loot
+from gmail_sheet import update_sheet_warrior_ending_1, update_sheet_warrior_ending_2, get_warrior_loot
 from validation import validate_warrior_path0, validate_user_input
 
 def warriorPath0():
@@ -159,7 +159,7 @@ def warriorPath1_1_1_2():
         Get the value for path1 cell from the worksheet, turn it to an int so it can be incremented by 1
         Send it back to update the sheet  
         """
-        update_sheet_ending_1()
+        update_sheet_warrior_ending_1()
 
         with open('stories/warrior/warrior_end_1.txt') as f:
             end1 = f.read()
@@ -169,7 +169,7 @@ def warriorPath1_1_1_2():
         Get the value for path2 cell from the worksheet, turn it to an int so it can be incremented by 1
         Send it back to update the sheet  
         """
-        update_sheet_ending_2()
+        update_sheet_warrior_ending_2()
 
         with open('stories/warrior/warrior_end_2.txt') as f:
             end2 = f.read()

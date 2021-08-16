@@ -19,16 +19,40 @@ finished_game = SHEET.worksheet("finished_game")
 data = finished_game.get_all_values()
 
 
-def update_sheet_ending_1():
+def update_sheet_wizard_ending_1():
     finishedPath1 = int(finished_game.cell(2, 1).value)
     finishedPath1 += 1
     finished_game.update_cell(2, 1, finishedPath1)
 
 
-def update_sheet_ending_2():
+def update_sheet_wizard_ending_2():
     finishedPath2 = int(finished_game.cell(2, 2).value)
     finishedPath2 += 1
     finished_game.update_cell(2, 2, finishedPath2)
+
+
+def update_sheet_warrior_ending_1():
+    finishedPath1 = int(finished_game.cell(2, 3).value)
+    finishedPath1 += 1
+    finished_game.update_cell(2, 3, finishedPath1)
+
+
+def update_sheet_warrior_ending_2():
+    finishedPath2 = int(finished_game.cell(2, 4).value)
+    finishedPath2 += 1
+    finished_game.update_cell(2, 4, finishedPath2)
+
+
+def update_sheet_elf_ending_1():
+    finishedPath1 = int(finished_game.cell(2, 5).value)
+    finishedPath1 += 1
+    finished_game.update_cell(2, 5, finishedPath1)
+
+
+def update_sheet_elf_ending_2():
+    finishedPath2 = int(finished_game.cell(2, 6).value)
+    finishedPath2 += 1
+    finished_game.update_cell(2, 6, finishedPath2)
 
 
 def get_wizard_loot():

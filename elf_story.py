@@ -1,5 +1,5 @@
 from character import name, hero_data
-from gmail_sheet import update_sheet_ending_1, update_sheet_ending_2, get_elf_loot
+from gmail_sheet import update_sheet_elf_ending_1, update_sheet_elf_ending_2, get_elf_loot
 
 def elfPath0():
     """
@@ -135,7 +135,7 @@ def elfPath1_1_1_2():
         Get the value for path1 cell from the worksheet, turn it to an int so it can be incremented by 1
         Send it back to update the sheet  
         """
-        update_sheet_ending_1()
+        update_sheet_elf_ending_1()
 
         with open('stories/elf/elf_end_1.txt') as f:
             end1 = f.read()
@@ -145,7 +145,7 @@ def elfPath1_1_1_2():
         Get the value for path2 cell from the worksheet, turn it to an int so it can be incremented by 1
         Send it back to update the sheet  
         """
-        update_sheet_ending_2()
+        update_sheet_elf_ending_2()
 
         with open('stories/elf/elf_end_2.txt') as f:
             end2 = f.read()
