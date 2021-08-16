@@ -1,10 +1,11 @@
 from character import NAME, hero_data
 from gmail_sheet import update_sheet_elf_ending_1, update_sheet_elf_ending_2, get_elf_loot
 
+
 def elfPath0():
     """
-    Function to display the intro of the story
-    and present the user with two path options by using to integers.
+    Function to display the first choice in the story.
+    Presenting the user with the number 1 to continue with a new function.
     """
     pathChoice = int(input("1\n"))
     if pathChoice == 1:
@@ -15,8 +16,8 @@ def elfPath0():
 
 def elfPath1():
     """
-    Function to display the first path choice of intro
-    and present the user with three new options by using three integers.
+    Function to display the continuation of elfPath0
+    and present the user with two new options by using two integers.
     A while loop is also added to loop one of these choices.
     """
     with open('stories/elf/elf_path1.txt') as f:
@@ -34,10 +35,9 @@ def elfPath1():
             elfPath1_2()
 
 
-
 def elfPath1_1():
     """
-    Function to display the second path choice of path1
+    Function to display the continuation of elfPath1
     and present the user with two new options by using two integers.
     """
     with open('stories/elf/elf_path1_1.txt') as f:
@@ -55,6 +55,10 @@ def elfPath1_1():
 
 
 def elfBattle():
+    """
+    Function to display the continuation of elfPath1_1
+    and present the user with two new options by using two integers.
+    """
     print("The ogre wakes up and starts running at you.")
     print("What will you do?")
     print("1. Offer your gold neckless to the ogre")
@@ -66,8 +70,12 @@ def elfBattle():
         elfBattle2()
 
 
-
 def elfBattle1():
+    """
+    Function to display the continuation of elfBattle,
+    Function is called to present loot dropped from ogre
+    Function is called to continue the story.
+    """
     print("As the ogre charges at you, you offer it your gold neckless.")
     print("The ogre stops in it's tracks and looks at it with awe.")
     print("- Wooow not one person has offered me gold in centuries. The ogre said.")
@@ -76,18 +84,21 @@ def elfBattle1():
     elfPath1_1_1()
 
 
-
 def elfBattle2():
+    """
+    Function to display the continuation of elfBattle,
+    getting hero_data to display health
+    and ending the game.
+    """
     print("As the ogre charges at you, you jump to get out of the way.")
     print("The ogre catches you mid air, and slams you in to the wall.")
     print(f"Your health is now {hero_data[0] - 25}")
     print("You are dead.")
 
 
-
 def elfPath1_1_1():
     """
-    Function to display the first path choice of path1_2
+    Function to display the continuation of elfBattle1
     and present the user with two new options by using two integers.
     A while loop is also added to loop one of these choices.
     """
@@ -106,10 +117,9 @@ def elfPath1_1_1():
             break
 
 
-
 def elfPath1_1_2():
     """
-    Function to display the second path choice of path1_2
+    Function to display the continuation of elfPath1_1
     and to end the game.
     """
     with open('stories/elf/elf_path1_1_2.txt') as f:
@@ -117,12 +127,12 @@ def elfPath1_1_2():
             print(path1_1_2.format(NAME))
 
 
-
 def elfPath1_1_1_2():
     """
-    Function to display the second path choice of path1_2_1
-    and present the user with two new options by using two integers.
-    Code is added to send back information to google sheet when users finish the game.
+    Function to display the continuation of elfPath1_1_1
+    and present the user with two ending options by using two integers.
+    Function is added to send back information to google sheet,
+    when users finish the game.
     """
     with open('stories/elf/elf_path1_1_1_2.txt') as f:
             path1_1_1_2 = f.read()
@@ -131,31 +141,24 @@ def elfPath1_1_1_2():
     print("2. Leave")
     fifthPathChoice = int(input("1, 2\n"))
     if fifthPathChoice == 1:
-        """
-        Get the value for path1 cell from the worksheet, turn it to an int so it can be incremented by 1
-        Send it back to update the sheet  
-        """
+        # Function called from gmail_sheet.py
         update_sheet_elf_ending_1()
-
+        # Display story
         with open('stories/elf/elf_end_1.txt') as f:
             end1 = f.read()
             print(end1.format(NAME))
     elif fifthPathChoice == 2:
-        """
-        Get the value for path2 cell from the worksheet, turn it to an int so it can be incremented by 1
-        Send it back to update the sheet  
-        """
+        # Function called from gmail_sheet.py
         update_sheet_elf_ending_2()
-
+        # Display story
         with open('stories/elf/elf_end_2.txt') as f:
             end2 = f.read()
             print(end2.format(NAME))
 
 
-
 def elfPath1_2():
     """
-    Function to display the second path choice of path1
+    Function to display the continuation of elfPath1
     and to loop the game.
     """
     with open('stories/elf/elf_path1_2.txt') as f:

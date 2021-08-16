@@ -198,7 +198,7 @@ def wizardPath1_1_1_2():
 def wizardPath1_2():
     """
     Function to display the continuation of wizardPath1
-    and to end the game.
+    and to loop the game.
     """
     with open('stories/wizard/wizard_path1_2.txt') as f:
             path1_2 = f.read()
