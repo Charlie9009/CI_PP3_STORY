@@ -61,13 +61,13 @@ def elfBattle():
     print("2. Attack the ogre")
     battleChoice = int(input("1, 2\n"))
     if battleChoice == 1:
-        battlePath1()
+        elfBattle1()
     elif battleChoice == 2:
-        battlePath2()
+        elfBattle2()
 
 
 
-def battlePath1():
+def elfBattle1():
     print("As the ogre charges at you, you offer it your gold neckless.")
     print("The ogre stops in it's tracks and looks at it with awe.")
     print("- Wooow not one person has offered me gold in centuries. The ogre said.")
@@ -77,7 +77,7 @@ def battlePath1():
 
 
 
-def battlePath2():
+def elfBattle2():
     print("As the ogre charges at you, you jump to get out of the way.")
     print("The ogre catches you mid air, and slams you in to the wall.")
     print(f"Your health is now {hero_data[0] - 25}")
