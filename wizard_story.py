@@ -1,5 +1,7 @@
 from character import NAME, hero_data, ogre_data
-from gmail_sheet import update_sheet_wizard_ending_1, update_sheet_wizard_ending_2, get_wizard_loot
+from gmail_sheet import update_sheet_wizard_ending_1, get_wizard_loot
+from gmail_sheet import update_sheet_wizard_ending_2
+
 
 def wizardPath0():
     """
@@ -9,7 +11,7 @@ def wizardPath0():
     pathChoice = int(input("1\n"))
     if pathChoice == 1:
         wizardPath1()
-        
+
     return pathChoice
 
 
@@ -34,7 +36,6 @@ def wizardPath1():
             wizardPath1_2()
 
 
-
 def wizardPath1_1():
     """
     Function to display the continuation of wizardPath1
@@ -50,7 +51,7 @@ def wizardPath1_1():
         wizardBattle()
     elif thirdPathChoice == 2:
         wizardPath1_1_2()
-        
+
     return thirdPathChoice
 
 
@@ -68,7 +69,6 @@ def wizardBattle():
         wizardBattle1()
     elif battleChoice == 2:
         wizardBattle2()
-
 
 
 def wizardBattle1():
@@ -98,7 +98,8 @@ def wizardBattle1_1():
     getting hero_data to display health
     and ending the game.
     """
-    print("Before you can react the ogre runs at you pushing you in to the wall knocking you out.")
+    print("Before you can react the ogre runs at you")
+    print("The ogre pushes you in to the wall knocking you out.")
     print(f"Your health is now {hero_data[0] - 50}")
     print("You are dead.")
 
@@ -107,16 +108,20 @@ def wizardBattle1_2():
     """
     Function to display the continuation of wizardBattle1,
     getting hero_data and ogre_data to display health and mana.
-    Function is called to present loot dropped from ogre and function is called to continue the story.
+    Function is called to present loot dropped from ogre
+    Function is called to continue the story.
     """
-    print("You stand feeling the magic flowing thru you, the ogre start running for you")
-    print("You push with you magic as the cave shakes, the ogres feet leaves the ground")
+    print("You stand feeling the magic flowing thru you,")
+    print("the ogre starts running for you")
+    print("You push with you magic as the cave shakes,")
+    print("the ogres feet leaves the ground.")
     print("The ogre flies backwards and hits the cave wall.")
     print(f"The ogres health is now {ogre_data - 100}")
     print("The ogre is dead")
     print(f"Your mana is now {hero_data[1] - 50}")
     get_wizard_loot()
     wizardPath1_1_1()
+
 
 def wizardBattle2():
     """
@@ -128,7 +133,6 @@ def wizardBattle2():
     print("The ogre catches you mid air, and slams you in to the wall.")
     print(f"Your health is now {hero_data[0] - 50}")
     print("You are dead.")
-
 
 
 def wizardPath1_1_1():
@@ -152,7 +156,6 @@ def wizardPath1_1_1():
             break
 
 
-
 def wizardPath1_1_2():
     """
     Function to display the continuation of wizardPath1_1
@@ -163,12 +166,12 @@ def wizardPath1_1_2():
             print(path1_1_2.format(NAME))
 
 
-
 def wizardPath1_1_1_2():
     """
     Function to display the continuation of wizardPath1_1_1
     and present the user with two ending options by using two integers.
-    Function is added to send back information to google sheet when users finish the game.
+    Function is added to send back information to google sheet,
+    when users finish the game.
     """
     with open('stories/wizard/wizard_path1_1_1_2.txt') as f:
             path1_1_1_2 = f.read()
@@ -190,7 +193,6 @@ def wizardPath1_1_1_2():
         with open('stories/wizard/wizard_end_2.txt') as f:
             end2 = f.read()
             print(end2.format(NAME))
-
 
 
 def wizardPath1_2():
