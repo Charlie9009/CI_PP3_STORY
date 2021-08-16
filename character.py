@@ -8,7 +8,10 @@ characterSelect = int(input("1/2/3\n"))
 
 
 class character:
-
+    """
+    Contains functions to set health, mana and mind,
+    Also printing out selected character stats.
+    """
     def __init__(self, health, mana, mind):
         self.health = health
         self.mana = mana
@@ -71,6 +74,7 @@ def choseClass():
 
     return(health, mana, mind)
 
+# Apply function to variable and print stats.
 hero_data = choseClass()
 hero = character(hero_data[0], hero_data[1], hero_data[2])
 print("Your stats are...")
