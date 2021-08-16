@@ -1,4 +1,4 @@
-from character import name, hero_data, ogre_data
+from character import NAME, hero_data, ogre_data
 from gmail_sheet import update_sheet_wizard_ending_1, update_sheet_wizard_ending_2, get_wizard_loot
 
 def wizardPath0():
@@ -21,7 +21,7 @@ def wizardPath1():
     """
     with open('stories/wizard/wizard_path1.txt') as f:
             path1 = f.read()
-            print(path1.format(name))
+            print(path1.format(NAME))
     while True:
         print("What will you do?")
         print("1. Light the torch with magic ")
@@ -42,7 +42,7 @@ def wizardPath1_1():
     """
     with open('stories/wizard/wizard_path1_1.txt') as f:
             path1_1 = f.read()
-            print(path1_1.format(name))
+            print(path1_1.format(NAME))
     print("1. Attack the ogre")
     print("2. Sneak around the ogre")
     thirdPathChoice = int(input("1, 2\n"))
@@ -115,7 +115,7 @@ def wizardPath1_1_1():
     """
     with open('stories/wizard/wizard_path1_1_1.txt') as f:
             path1_1_1 = f.read()
-            print(path1_1_1.format(name))
+            print(path1_1_1.format(NAME))
     while True:
         print("What will you do?")
         print("1. Collect courage")
@@ -136,7 +136,7 @@ def wizardPath1_1_2():
     """
     with open('stories/wizard/wizard_path1_1_2.txt') as f:
             path1_1_2 = f.read()
-            print(path1_1_2.format(name))
+            print(path1_1_2.format(NAME))
 
 
 
@@ -148,7 +148,7 @@ def wizardPath1_1_1_2():
     """
     with open('stories/wizard/wizard_path1_1_1_2.txt') as f:
             path1_1_1_2 = f.read()
-            print(path1_1_1_2.format(name))
+            print(path1_1_1_2.format(NAME))
     print("1. Take the Caldun")
     print("2. Leave")
     fifthPathChoice = int(input("1, 2\n"))
@@ -161,7 +161,7 @@ def wizardPath1_1_1_2():
 
         with open('stories/wizard/wizard_end_1.txt') as f:
             end1 = f.read()
-            print(end1.format(name))
+            print(end1.format(NAME))
     elif fifthPathChoice == 2:
         """
         Get the value for path2 cell from the worksheet, turn it to an int so it can be incremented by 1
@@ -171,7 +171,7 @@ def wizardPath1_1_1_2():
 
         with open('stories/wizard/wizard_end_2.txt') as f:
             end2 = f.read()
-            print(end2.format(name))
+            print(end2.format(NAME))
 
 
 
@@ -182,7 +182,7 @@ def wizardPath1_2():
     """
     with open('stories/wizard/wizard_path1_2.txt') as f:
             path1_2 = f.read()
-            print(path1_2.format(name))
+            print(path1_2.format(NAME))
 
 
 

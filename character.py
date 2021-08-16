@@ -1,6 +1,8 @@
 from pprint import pprint
 
-name = input("What is your name?\n")
+
+NAME = input("What is your name?\n")
+print("Are you a Wizard, Warrior or an elf?")
 print("1. Wizard/ 2. Warrior/ 3. Elf")
 characterSelect = int(input("1/2/3\n"))
 
