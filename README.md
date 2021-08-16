@@ -37,15 +37,9 @@ refresh-toc -->
 
     1. [HTML](#html)
 
-    2. [CSS](#css)
+    2. [Further testing](#further-testing)
 
-    3. [Accessibility](#accessibility)
-
-    4. [Performance](#Performance)
-
-    5. [Further testing](#further-testing)
-
-    6. [Testing user stories](#testing-user-stories)
+    3. [Testing user stories](#testing-user-stories)
 
 6. [Bugs](#bugs)
 
@@ -140,45 +134,11 @@ refresh-toc -->
 
 ### Validator testing
 
-#### HTML
+#### Python
 
 <details><summary>No errors were found on index.html when passing through WC3 Validator.</summary>
 <img src="">
 </details>
-
-
-
-#### CSS
-
-<details><summary>No errors were found on the CSS file when passing through Jigsaw W3 Validator.</summary>
-<img src="">
-</details>
-<hr>
-
-#### JavaScript
-
-<details><summary>No errors were found on game.js when passing through jshint.</summary>
-<img src="">
-</details>
-
-
-#### Accessibility
-
-<details><summary>No errors were found on the index.html when passing through Wave Web Accessibility Validator.</summary>
-<img src="">
-</details>
-
-
-#### Performance
-
-* Lighthouse was used to test the performance and the speed of the site. <br>
-
-<details><summary>index.html</summary>
-<img src="">
-</details>
-
-
-## Browser Compatibility
 
 
 
@@ -234,8 +194,6 @@ refresh-toc -->
 ## Credit
 
 ## Media Credit
-
-### Images were googled and added to the project.
 
 ## Acknowledgement
 
