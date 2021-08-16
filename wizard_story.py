@@ -93,12 +93,22 @@ def wizardBattle1():
 
 
 def wizardBattle1_1():
+    """
+    Function to display the continuation of wizardBattle1,
+    getting hero_data to display health
+    and ending the game.
+    """
     print("Before you can react the ogre runs at you pushing you in to the wall knocking you out.")
     print(f"Your health is now {hero_data[0] - 50}")
     print("You are dead.")
 
 
 def wizardBattle1_2():
+    """
+    Function to display the continuation of wizardBattle1,
+    getting hero_data and ogre_data to display health and mana.
+    Function is called to present loot dropped from ogre and function is called to continue the story.
+    """
     print("You stand feeling the magic flowing thru you, the ogre start running for you")
     print("You push with you magic as the cave shakes, the ogres feet leaves the ground")
     print("The ogre flies backwards and hits the cave wall.")
@@ -109,6 +119,11 @@ def wizardBattle1_2():
     wizardPath1_1_1()
 
 def wizardBattle2():
+    """
+    Function to display the continuation of wizardBattle,
+    getting hero_data to display health
+    and ending the game.
+    """
     print("As the ogre charges at you, you jump to get out of the way.")
     print("The ogre catches you mid air, and slams you in to the wall.")
     print(f"Your health is now {hero_data[0] - 50}")
@@ -118,7 +133,7 @@ def wizardBattle2():
 
 def wizardPath1_1_1():
     """
-    Function to display the first path choice of path1_2
+    Function to display the continuation of wizardBattle1_2
     and present the user with two new options by using two integers.
     A while loop is also added to loop one of these choices.
     """
@@ -140,7 +155,7 @@ def wizardPath1_1_1():
 
 def wizardPath1_1_2():
     """
-    Function to display the second path choice of path1_2
+    Function to display the continuation of wizardPath1_1
     and to end the game.
     """
     with open('stories/wizard/wizard_path1_1_2.txt') as f:
@@ -151,9 +166,9 @@ def wizardPath1_1_2():
 
 def wizardPath1_1_1_2():
     """
-    Function to display the second path choice of path1_2_1
-    and present the user with two new options by using two integers.
-    Code is added to send back information to google sheet when users finish the game.
+    Function to display the continuation of wizardPath1_1_1
+    and present the user with two ending options by using two integers.
+    Function is added to send back information to google sheet when users finish the game.
     """
     with open('stories/wizard/wizard_path1_1_1_2.txt') as f:
             path1_1_1_2 = f.read()
@@ -162,22 +177,16 @@ def wizardPath1_1_1_2():
     print("2. Leave")
     fifthPathChoice = int(input("1, 2\n"))
     if fifthPathChoice == 1:
-        """
-        Get the value for path1 cell from the worksheet, turn it to an int so it can be incremented by 1
-        Send it back to update the sheet  
-        """
+        # Function called from gmail_sheet.py
         update_sheet_wizard_ending_1()
-
+        # Display story
         with open('stories/wizard/wizard_end_1.txt') as f:
             end1 = f.read()
             print(end1.format(NAME))
     elif fifthPathChoice == 2:
-        """
-        Get the value for path2 cell from the worksheet, turn it to an int so it can be incremented by 1
-        Send it back to update the sheet  
-        """
+        # Function called from gmail_sheet.py
         update_sheet_wizard_ending_2()
-
+        # Display story
         with open('stories/wizard/wizard_end_2.txt') as f:
             end2 = f.read()
             print(end2.format(NAME))
@@ -186,12 +195,9 @@ def wizardPath1_1_1_2():
 
 def wizardPath1_2():
     """
-    Function to display the second path choice of path1
-    and to loop the game.
+    Function to display the continuation of wizardPath1
+    and to end the game.
     """
     with open('stories/wizard/wizard_path1_2.txt') as f:
             path1_2 = f.read()
             print(path1_2.format(NAME))
-
-
-
