@@ -3,6 +3,8 @@ from pprint import pprint
 name = input("What is your name?\n")
 print("1. Wizard/ 2. Warrior/ 3. Elf")
 characterSelect = int(input("1/2/3\n"))
+
+
 class character:
 
     def __init__(self, health, mana, mind):
@@ -10,37 +12,67 @@ class character:
         self.mana = mana
         self.mind = mind
 
+
 def choseClass():
-    
+
+    wizardClothes = {
+        "head": "A blue pointy hat",
+        "torso": "A red cape",
+        "legs": "Blue pants",
+        "feet": "Red pointy shoes"
+    }
+    warriorClothes = {
+        "head": "A metal helmet",
+        "torso": "A big armor",
+        "legs": "Armored pants",
+        "feet": "Armored boots"
+    }
+    elfClothes = {
+        "head": "Beautiful hair",
+        "torso": "A red silk shirt",
+        "legs": "Red silk pants",
+        "feet": "Black smooth shoes"
+    }
     if characterSelect == 1:
-        
         health = 50
         mana = 100
         mind = 50
-        
+
+        print("You have chosen Wizard, your clothes are...")
+        for wizard in wizardClothes:
+            print(wizardClothes[wizard])
+
     elif characterSelect == 2:
         health = 100
         mana = 25
         mind = 50
+
+        print("You have chosen Warrior, your clothes are...")
+        for warrior in warriorClothes:
+            print(warriorClothes[warrior])
+
     elif characterSelect == 3:
         health = 25
         mana = 50
         mind = 100
 
-    return(health, mana, mind)
-        
-hero_data = choseClass()
+        print("You have chosen Elf, your clothes are...")
+        for elf in elfClothes:
+            print(elfClothes[elf])
 
+    return(health, mana, mind)
+
+hero_data = choseClass()
 hero = character(hero_data[0], hero_data[1], hero_data[2])
 print("Your stats are...")
 pprint(vars(hero))
-
 
 
 class enemy:
 
     def __init__(self, health):
         self.health = health
+
 
 def ogreHealth():
 

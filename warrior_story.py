@@ -26,10 +26,11 @@ def warriorPath1():
         print("2. Light the torch with magic")
         secondPathChoice = input(int("1, 2\n"))
         if secondPathChoice == 1:
+            validate_user_input()
             warriorPath1_1()
             break
         elif secondPathChoice == 2:
-
+            validate_user_input()
             warriorPath1_2()
 
 
