@@ -263,11 +263,66 @@ refresh-toc -->
 
 ## Further testing
 
-
-
 ## Testing user stories
 
-1. 
+1. As a user I want an original story.
+
+|             Feature           |        Action        |                 Expected result                    |   Actual result     |
+|            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
+|  The story has been written by the site owner |    None    |       Original story                         |  Original story     |
+|   Different paths changes the story   |    Choose path     |   Story will change with different paths     |   Works as expected |
+<details><summary>Screenshot</summary>
+<img src="">
+<img src="">
+</details>
+<hr>
+
+
+2. As a user I want to be challenged when playing the game.
+
+|             Feature           |        Action        |                 Expected result                    |   Actual result     |
+|            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
+|  Different paths ends the game  |    Choose path     |      If the user picks a wrong path the game ends  | Works as expected   |
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+<hr>
+
+
+3. As a user I want to be able to write my name in to the story.
+
+|             Feature           |        Action        |                 Expected result                    |   Actual result     |
+|            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
+|  Write your name and it stays in the story  |  Write you name | After user writes name it will show up in the story | Works as expected   |
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+<hr>
+
+
+4. As a user I want to be able to choose multiple paths.
+
+|             Feature           |        Action        |                 Expected result                    |   Actual result     |
+|            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
+|  Different paths in the story   |  Choose path       |      Different story depending on choice           |   Works as expected |
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+<hr>
+
+
+5. As a user I want to be able to chose multiple classes.
+
+|             Feature           |        Action        |                 Expected result                    |   Actual result     |
+|            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
+|   Choosing a class            |  Choose class        |   A user will be able to choose different classes  | Works as expected   |
+<details><summary>Screenshot</summary>
+<img src="">
+</details>
+<hr>
+
+
+6. As a user I want to be able to see my stats.
 
 |             Feature           |        Action        |                 Expected result                    |   Actual result     |
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
@@ -279,7 +334,7 @@ refresh-toc -->
 <hr>
 
 
-2. 
+7. As a site owner I want the user to be challenged.
 
 |             Feature           |        Action        |                 Expected result                    |   Actual result     |
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
@@ -291,7 +346,7 @@ refresh-toc -->
 <hr>
 
 
-3. 
+8. As a site owner I want the user to experience an original story. 
 
 |             Feature           |        Action        |                 Expected result                    |   Actual result     |
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
@@ -303,7 +358,7 @@ refresh-toc -->
 <hr>
 
 
-4. 
+9. As a site owner I want the user to have multiple path options.
 
 |             Feature           |        Action        |                 Expected result                    |   Actual result     |
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
@@ -315,7 +370,7 @@ refresh-toc -->
 <hr>
 
 
-5. 
+10. As a site owner I want to be able to see how many has finished the story in either path.
 
 |             Feature           |        Action        |                 Expected result                    |   Actual result     |
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
@@ -327,67 +382,7 @@ refresh-toc -->
 <hr>
 
 
-6. 
-
-|             Feature           |        Action        |                 Expected result                    |   Actual result     |
-|            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
-|                               |                      |                                                    |                     |
-|                               |                      |                                                    |                     |
-<details><summary>Screenshot</summary>
-<img src="">
-</details>
-<hr>
-
-
-7. 
-
-|             Feature           |        Action        |                 Expected result                    |   Actual result     |
-|            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
-|                               |                      |                                                    |                     |
-|                               |                      |                                                    |                     |
-<details><summary>Screenshot</summary>
-<img src="">
-</details>
-<hr>
-
-
-8. 
-
-|             Feature           |        Action        |                 Expected result                    |   Actual result     |
-|            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
-|                               |                      |                                                    |                     |
-|                               |                      |                                                    |                     |
-<details><summary>Screenshot</summary>
-<img src="">
-</details>
-<hr>
-
-
-9. 
-
-|             Feature           |        Action        |                 Expected result                    |   Actual result     |
-|            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
-|                               |                      |                                                    |                     |
-|                               |                      |                                                    |                     |
-<details><summary>Screenshot</summary>
-<img src="">
-</details>
-<hr>
-
-
-10. 
-
-|             Feature           |        Action        |                 Expected result                    |   Actual result     |
-|            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
-|                               |                      |                                                    |                     |
-|                               |                      |                                                    |                     |
-<details><summary>Screenshot</summary>
-<img src="">
-</details>
-<hr>
-
-
-11. 
+11. As a site owner I want to have a loot system for the user.
 
 |             Feature           |        Action        |                 Expected result                    |   Actual result     |
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
