@@ -100,7 +100,7 @@ refresh-toc -->
 
 * The first option the user will have is to name their character what they want.
 <br>
-<img src="docs/features/feature_name.jpg">
+<img src="docs/features/feature_name.JPG">
 
 ### User stories covered by this feature:
 
@@ -112,7 +112,7 @@ refresh-toc -->
 
 * The second option the user will have is to choose one of three different classes.
 <br>
-<img src="docs/features/feature_class.jpg">
+<img src="docs/features/feature_class.JPG">
 
 ### User stories covered by this feature:
 
@@ -124,7 +124,7 @@ refresh-toc -->
 
 * A feature has been added to show the stats of the chosen class and to show clothes of the class.
 <br>
-<img src="docs/features/feature_stats.jpg">
+<img src="docs/features/feature_stats.JPG">
 
 ### User stories covered by this feature:
 
@@ -136,7 +136,7 @@ refresh-toc -->
 
 * A big feature is the game has alot of different paths the user can take throughout the game.
 <br>
-<img src="docs/features/feature_path_choices.jpg">
+<img src="docs/features/feature_path_choices.JPG">
 
 ### User stories covered by this feature:
 
@@ -158,7 +158,7 @@ refresh-toc -->
 
 * During the battle with the ogre a feature has been added to show health and mana drained.
 <br>
-<img src="docs/features/feature_health_system.jpg">
+<img src="docs/features/feature_health_system.JPG">
 
 ### User stories covered by this feature:
 
@@ -170,7 +170,7 @@ refresh-toc -->
 
 * After the battle with the ogre a feature has been added to drop loot.
 <br>
-<img src="docs/features/feature_loot.jpg">
+<img src="docs/features/feature_loot.JPG">
 
 ### User stories covered by this feature:
 
@@ -182,7 +182,7 @@ refresh-toc -->
 
 * For every class there are two different endings.
 <br>
-<img src="docs/features/feature_endings.jpg">
+<img src="docs/features/feature_endings.JPG">
 
 ### User stories covered by this feature:
 
@@ -200,7 +200,7 @@ refresh-toc -->
 
 * When a user finishes one of the six different endings, a spreadsheet is updated to have a statistic of how many people have finished the different stories.
 <br>
-<img src="docs/features/feature_sheet.jpg">
+<img src="docs/features/feature_sheet.JPG">
 
 ### User stories covered by this feature:
 
