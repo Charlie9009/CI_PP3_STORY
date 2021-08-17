@@ -8,11 +8,14 @@ def elfPath0():
     Function to display the first choice in the story.
     Presenting the user with the number 1 to continue with a new function.
     """
-    pathChoice = int(input("1\n"))
-    if pathChoice == 1:
+    pathChoice = input("1\n")
+    # Input validation
+    while pathChoice != "1":
+            print("Invalid input")
+            pathChoice = input("1\n")
+            
+    if pathChoice == "1":
         elfPath1()
-
-    return pathChoice
 
 
 def elfPath1():

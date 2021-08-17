@@ -9,9 +9,11 @@ def warriorPath0():
     Presenting the user with the number 1 to continue with a new function.
     """
     pathChoice = input("1\n")
-    while pathChoice != "1" and pathChoice != "2":
+    # Input validation
+    while pathChoice != "1":
             print("Invalid input")
-            pathChoice = input("1, 2\n")
+            pathChoice = input("1\n")
+            
     if pathChoice == "1":
         warriorPath1()
 
