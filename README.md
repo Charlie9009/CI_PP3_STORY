@@ -90,7 +90,7 @@ refresh-toc -->
 * Below you can see the images of the flowchart.
 
 <details><summary>Flowchart</summary>
-<img src="">
+<img src="docs/flowchart/pp3_flowchart.jpg">
 </details>
 
 
@@ -150,10 +150,10 @@ refresh-toc -->
 
 1. 
 
-|                   Feature                       |        Action        |                 Expected result                          |   Actual result     |
-|            :----------:                         |    :------------:    |               :-----------------:                        | :---------------:   |
-|                               |                               |                                           |                                          |
-|                              |                   |                                          |                                  |
+|             Feature           |        Action        |                 Expected result                    |   Actual result     |
+|            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
+|                               |                      |                                                    |                     |
+|                               |                      |                                                    |                     |
 <details><summary>Screenshot</summary>
 <img src="">
 </details>
