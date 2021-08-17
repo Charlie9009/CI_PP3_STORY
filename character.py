@@ -4,7 +4,7 @@ from pprint import pprint
 NAME = input("What is your name?\n")
 print("Are you a Wizard, Warrior or an elf?")
 print("1. Wizard/ 2. Warrior/ 3. Elf")
-characterSelect = int(input("1/2/3\n"))
+CHARACTERSELECT = input("1/2/3\n")
 
 
 class character:
@@ -42,7 +42,7 @@ def choseClass():
         "legs": "Red silk pants",
         "feet": "Black smooth shoes"
     }
-    if characterSelect == 1:
+    if CHARACTERSELECT == "1":
         # Wizard choice
         health = 50
         mana = 100
@@ -52,7 +52,7 @@ def choseClass():
         for wizard in wizardClothes:
             print(wizardClothes[wizard])
 
-    elif characterSelect == 2:
+    elif CHARACTERSELECT == "2":
         # Warrior choice
         health = 100
         mana = 25
@@ -62,7 +62,7 @@ def choseClass():
         for warrior in warriorClothes:
             print(warriorClothes[warrior])
 
-    elif characterSelect == 3:
+    elif CHARACTERSELECT == "3":
         # Elf choice
         health = 25
         mana = 50
