@@ -208,6 +208,8 @@ refresh-toc -->
 
 ### Features left to implement
 
+* I want to implement a feature where the story text has a time delay so all of the text does not come at the same time.
+
 ## Technologies used
 
 ### Languages
