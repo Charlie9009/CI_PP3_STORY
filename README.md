@@ -232,10 +232,33 @@ refresh-toc -->
 
 #### Python
 
-<details><summary>No errors were found on index.html when passing through WC3 Validator.</summary>
-<img src="">
+<details><summary>No errors were found on run.py when passing through PEP8 Validator.</summary>
+<img src="docs/validation/validation_run.JPG">
 </details>
 
+<details><summary>No errors were found on character.py when passing through PEP8 Validator.</summary>
+<img src="docs/validation/validation_character.JPG">
+</details>
+
+<details><summary>No errors were found on elf_story.py when passing through PEP8 Validator.</summary>
+<img src="docs/validation/validation_elf_story.JPG">
+</details>
+
+<details><summary>No errors were found on warrior_story.py when passing through PEP8 Validator.</summary>
+<img src="docs/validation/validation_warrior_story.JPG">
+</details>
+
+<details><summary>No errors were found on wizard_story.py when passing through PEP8 Validator.</summary>
+<img src="docs/validation/validation_wizard_story.JPG">
+</details>
+
+<details><summary>No errors were found on gmail_sheet.py when passing through PEP8 Validator.</summary>
+<img src="docs/validation/validation_gmail_sheet.JPG">
+</details>
+
+<details><summary>No errors were found on validation.py when passing through PEP8 Validator.</summary>
+<img src="docs/validation/validation_validation.JPG">
+</details>
 
 
 ## Further testing
