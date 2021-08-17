@@ -370,10 +370,9 @@ refresh-toc -->
 
 |             Feature           |        Action        |                 Expected result                    |   Actual result     |
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
-|                               |                      |                                                    |                     |
-|                               |                      |                                                    |                     |
+| When a user finishes a story, data is sent to a sheet  |   Finish the game |  Sheet will be updated       | Works as expected   |
 <details><summary>Screenshot</summary>
-<img src="docs/features/user_story_1.png">
+<img src="docs/features/user_story_10.png">
 </details>
 <hr>
 
@@ -382,10 +381,9 @@ refresh-toc -->
 
 |             Feature           |        Action        |                 Expected result                    |   Actual result     |
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
-|                               |                      |                                                    |                     |
-|                               |                      |                                                    |                     |
+|  Defeating the ogre generates loot  |   Defeating the ogre |    when defeating the ogre loot should be presented |  Works as expected |
 <details><summary>Screenshot</summary>
-<img src="docs/features/user_story_1.png">
+<img src="docs/features/user_story_11.png">
 </details>
 <hr>
 
