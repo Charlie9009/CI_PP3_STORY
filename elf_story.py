@@ -63,7 +63,7 @@ def elfBattle():
     print("The ogre wakes up and starts running at you.")
     print("What will you do?")
     print("1. Offer your gold neckless to the ogre")
-    print("2. Attack the ogre")
+    print("2. jump to get out of the way")
     battleChoice = int(input("1, 2\n"))
     if battleChoice == 1:
         elfBattle1()
