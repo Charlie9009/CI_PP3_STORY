@@ -172,6 +172,27 @@ refresh-toc -->
 
 ## Deployment
 
+### Deploying to Heroku
+
+1. Use **pip3 freeze > requirements.txt** in terminal to save libraries that needs to be installed on Heroku as well.
+
+2. Log in to Heroku.
+
+3. Click on the **new** button in the top right corner and in the drop down menu choose **Create new app**.
+
+4. Choose a name for the app and a region and click **Create app**.
+
+5. Go to the **settings** tab and go to **Config Vars**, click **Reveal Config Vars** and add **CREDS** to the key field. Add creds.json content to the value field.
+
+6. In the **settings** tab add the python build pack first and then the node.js build pack.
+
+7. Go to the **deploy** tab and pick **GitHub** as deployment method.
+
+8. Search for a repository and connect to it.
+
+9. Click the button **enable automatic deploys** and then the button **deploy branch**.
+
+10. Wait for the app to build and then click the **view** button.
 
 ### Forking a repository
 
