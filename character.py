@@ -5,6 +5,10 @@ NAME = input("What is your name?\n")
 print("Are you a Wizard, Warrior or an elf?")
 print("1. Wizard/ 2. Warrior/ 3. Elf")
 CHARACTERSELECT = input("1, 2, 3\n")
+# Input validation
+while CHARACTERSELECT != "1" and CHARACTERSELECT != "2" and CHARACTERSELECT != "3":
+    print("Invalid input")
+    CHARACTERSELECT = input("1, 2, 3\n")
 
 
 class character:
