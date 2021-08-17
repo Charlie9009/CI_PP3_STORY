@@ -85,7 +85,7 @@ refresh-toc -->
 
 10. As a site owner I want to have a loot system for the user.
 
-### Flowchart
+### Technical design
 
 * Below you can see the images of the flowchart.
 
@@ -184,9 +184,13 @@ refresh-toc -->
 
     10. Go to **keys** click **add key** then **create new key**, fill out **json** and create.
 
-    11. now you should have a downloaded file with your key, drag this file to your
+    11. Now you should have a downloaded file with your key, drag this file to your workspace and rename it to **creds.json**.
 
-    13. Go to **API's & Services** and search for **google sheets**, select it and then click **enable**.
+    12. Copy **client-email** from **creds.json**, go to the spredsheet and click the **share** button. Paste the client email, make sure editor is selected, remove notify people and then click share.
+
+    13. In your workspace find the file **.gitignore**, open it and add **creds.json**.
+
+    14. Go to **API's & Services** and search for **google sheets**, select it and then click **enable**.
 
 ## Bugs
 
