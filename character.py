@@ -4,7 +4,7 @@ from pprint import pprint
 NAME = input("What is your name?\n")
 print("Are you a Wizard, Warrior or an elf?")
 print("1. Wizard/ 2. Warrior/ 3. Elf")
-CHARACTERSELECT = input("1/2/3\n")
+CHARACTERSELECT = input("1, 2, 3\n")
 
 
 class character:
