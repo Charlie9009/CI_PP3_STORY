@@ -14,6 +14,7 @@ SCOPE = [
 CREDS = Credentials.from_service_account_file("creds.json")
 SCOPED_CREDS = CREDS.with_scopes(SCOPE)
 GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDS)
+# Code addapted to my needs
 SHEET = GSPREAD_CLIENT.open("cave_story")
 FINISHED_GAME = SHEET.worksheet("finished_game")
 

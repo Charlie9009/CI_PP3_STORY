@@ -258,10 +258,6 @@ refresh-toc -->
 <img src="docs/validation/validation_gmail_sheet.JPG">
 </details>
 
-<details><summary>No errors were found on validation.py when passing through PEP8 Validator.</summary>
-<img src="docs/validation/validation_validation.JPG">
-</details>
-
 
 ## Further testing
 
@@ -439,9 +435,9 @@ refresh-toc -->
 
     * **Fix:** I added int before to change the value.
 
-* **Bug:**
+* **Bug:** The validate input code did not work with my class_story.py.
 
-    * **Fix:**
+    * **Fix:** To fix it I instead used a while loop to check if the input *is not equal to* my value print invalid input.
 
 ### Known bugs
 
@@ -490,7 +486,21 @@ refresh-toc -->
 
 ## Credit
 
-## Media Credit
+### For setting up Google sheets some code was used from Code Institutes learning project, "Love Sandwiches".
+
+### I mainly watched these videos to get inspiration for my own project
+
+* Some code was used and addapted from this video [Advanced Python Text Adventure](https://www.youtube.com/watch?v=VxhZZHnig8U)
+
+* [Making an Adventure Game in Python](https://www.youtube.com/watch?v=EbAdsK8s0-U&t=462s)
+
+* [Python Programming](https://www.youtube.com/watch?v=NK_uQaC89vo&t=1134s)
+
+* [Simple Python Project](https://www.youtube.com/watch?v=ypNFNr72Xe8&t=2342s)
+
+* [Choose Your Own Adventure Game in Python](https://www.youtube.com/watch?v=DEcFCn2ubSg&t=559s)
+
+* [Writing a Text-Based Adventure Game in Python](https://www.youtube.com/watch?v=miuHrP2O7Jw&t=1322s)
 
 ## Acknowledgement
 
