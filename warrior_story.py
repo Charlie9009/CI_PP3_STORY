@@ -1,4 +1,3 @@
-from os import path
 from character import NAME, hero_data, ogre_data
 from gmail_sheet import update_sheet_warrior_ending_1, get_warrior_loot
 from gmail_sheet import update_sheet_warrior_ending_2
