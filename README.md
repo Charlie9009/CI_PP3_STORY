@@ -21,9 +21,7 @@ refresh-toc -->
 
     2. [User stories](#user-stories)
 
-    3. [Design](#design)
-
-    4. [Wireframes](#wireframes)
+    3. [Technical design](#technical-design)
 
 3. [Features](#features)
 
@@ -35,7 +33,7 @@ refresh-toc -->
 
 5. [Testing](#testing)
 
-    1. [HTML](#html)
+    1. [Python](#python)
 
     2. [Further testing](#further-testing)
 
@@ -73,17 +71,19 @@ refresh-toc -->
 
 5. As a user I want to be able to chose multiple classes.
 
+6. As a user I want to be able to see my stats.
+
 #### Site owner goals
 
-6. As a site owner I want the user to be challenged.
+7. As a site owner I want the user to be challenged.
 
-7. As a site owner I want the user to experience an original story. 
+8. As a site owner I want the user to experience an original story. 
 
-8. As a site owner I want the user to have multiple path options.
+9. As a site owner I want the user to have multiple path options.
 
-9. As a site owner I want to be able to see how many has finished the story in either path.
+10. As a site owner I want to be able to see how many has finished the story in either path.
 
-10. As a site owner I want to have a loot system for the user.
+11. As a site owner I want to have a loot system for the user.
 
 ### Technical design
 
@@ -99,16 +99,112 @@ refresh-toc -->
 * **Naming your character**
 
 * The first option the user will have is to name their character what they want.
-
-
 <br>
-<img src="">
-
+<img src="docs/features/feature_name.jpg">
 
 ### User stories covered by this feature:
 
-3. As a user I want to be able to write my name in to the story.
+* 3. As a user I want to be able to write my name in to the story.
+<hr>
 
+
+* **Class choice**
+
+* The second option the user will have is to choose one of three different classes.
+<br>
+<img src="docs/features/feature_class.jpg">
+
+### User stories covered by this feature:
+
+* 5. As a user I want to be able to chose multiple classes.
+<hr>
+
+
+* **Stats**
+
+* A feature has been added to show the stats of the chosen class and to show clothes of the class.
+<br>
+<img src="docs/features/feature_stats.jpg">
+
+### User stories covered by this feature:
+
+* 6. As a user I want to be able to see my stats.
+<hr>
+
+
+* **Path Choices**
+
+* A big feature is the game has alot of different paths the user can take throughout the game.
+<br>
+<img src="docs/features/feature_path_choices.jpg">
+
+### User stories covered by this feature:
+
+* 1. As a user I want an original story.
+
+* 2. As a user I want to be challenged when playing the game.
+
+* 4. As a user I want to be able to choose multiple paths.
+
+* 7. As a site owner I want the user to be challenged.
+
+* 8. As a site owner I want the user to experience an original story. 
+
+* 9. As a site owner I want the user to have multiple path options.
+<hr>
+
+
+* **Health and mana**
+
+* During the battle with the ogre a feature has been added to show health and mana drained.
+<br>
+<img src="docs/features/feature_health_system.jpg">
+
+### User stories covered by this feature:
+
+* 6. As a user I want to be able to see my stats.
+<hr>
+
+
+* **Loot**
+
+* After the battle with the ogre a feature has been added to drop loot.
+<br>
+<img src="docs/features/feature_loot.jpg">
+
+### User stories covered by this feature:
+
+* 11. As a site owner I want to have a loot system for the user.
+<hr>
+
+
+* **Endings**
+
+* For every class there are two different endings.
+<br>
+<img src="docs/features/feature_endings.jpg">
+
+### User stories covered by this feature:
+
+* 1. As a user I want an original story.
+
+* 4. As a user I want to be able to choose multiple paths.
+
+* 8. As a site owner I want the user to experience an original story. 
+
+* 9. As a site owner I want the user to have multiple path options.
+<hr>
+
+
+* **Google Sheet**
+
+* When a user finishes one of the six different endings, a spreadsheet is updated to have a statistic of how many people have finished the different stories.
+<br>
+<img src="docs/features/feature_sheet.jpg">
+
+### User stories covered by this feature:
+
+* 10. As a site owner I want to be able to see how many has finished the story in either path.
 <hr>
 
 
