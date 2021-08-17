@@ -13,7 +13,7 @@ def wizardPath0():
     while pathChoice != "1":
             print("Invalid input")
             pathChoice = input("1\n")
-            
+
     if pathChoice == "1":
         wizardPath1()
 
@@ -31,11 +31,16 @@ def wizardPath1():
         print("What will you do?")
         print("1. Light the torch with magic ")
         print("2. Don't light the torch and keep walking")
-        secondPathChoice = int(input("1, 2\n"))
-        if secondPathChoice == 1:
+        secondPathChoice = input("1, 2\n")
+        # Input validation
+        while secondPathChoice != "1" and secondPathChoice != "2":
+            print("Invalid input")
+            secondPathChoice = input("1, 2\n")
+
+        if secondPathChoice == "1":
             wizardPath1_1()
             break
-        elif secondPathChoice == 2:
+        elif secondPathChoice == "2":
             wizardPath1_2()
 
 
@@ -49,13 +54,16 @@ def wizardPath1_1():
             print(path1_1.format(NAME))
     print("1. Attack the ogre")
     print("2. Sneak around the ogre")
-    thirdPathChoice = int(input("1, 2\n"))
-    if thirdPathChoice == 1:
-        wizardBattle()
-    elif thirdPathChoice == 2:
-        wizardPath1_1_2()
+    thirdPathChoice = input("1, 2\n")
+    # Input validation
+    while thirdPathChoice != "1" and thirdPathChoice != "2":
+        print("Invalid input")
+        thirdPathChoice = input("1, 2\n")
 
-    return thirdPathChoice
+    if thirdPathChoice == "1":
+        wizardBattle()
+    elif thirdPathChoice == "2":
+        wizardPath1_1_2()
 
 
 def wizardBattle():
@@ -67,10 +75,15 @@ def wizardBattle():
     print("What will you do?")
     print("1. Use magic to throw a rock at the ogre")
     print("2. Jump out of the way")
-    battleChoice = int(input("1, 2\n"))
-    if battleChoice == 1:
+    battleChoice = input("1, 2\n")
+    # Input validation
+    while battleChoice != "1" and battleChoice != "2":
+        print("Invalid input")
+        battleChoice = input("1, 2\n")
+
+    if battleChoice == "1":
         wizardBattle1()
-    elif battleChoice == 2:
+    elif battleChoice == "2":
         wizardBattle2()
 
 
@@ -88,10 +101,15 @@ def wizardBattle1():
     print("What will you do?")
     print("1. Wait for ogre to make the next move")
     print("2. Use magic to push ogre in to wall")
-    battleChoice = int(input("1, 2\n"))
-    if battleChoice == 1:
+    battleChoice = input("1, 2\n")
+    # Input validation
+    while battleChoice != "1" and battleChoice != "2":
+        print("Invalid input")
+        battleChoice = input("1, 2\n")
+
+    if battleChoice == "1":
         wizardBattle1_1()
-    elif battleChoice == 2:
+    elif battleChoice == "2":
         wizardBattle1_2()
 
 
@@ -151,10 +169,15 @@ def wizardPath1_1_1():
         print("What will you do?")
         print("1. Collect courage")
         print("2. Jump down")
-        fourthPathChoice = int(input("1, 2\n"))
-        if fourthPathChoice == 1:
+        fourthPathChoice = input("1, 2\n")
+        # Input validation
+        while fourthPathChoice != "1" and fourthPathChoice != "2":
+            print("Invalid input")
+            fourthPathChoice = input("1, 2\n")
+
+        if fourthPathChoice == "1":
             print("You collected courage")
-        elif fourthPathChoice == 2:
+        elif fourthPathChoice == "2":
             wizardPath1_1_1_2()
             break
 
@@ -181,15 +204,20 @@ def wizardPath1_1_1_2():
             print(path1_1_1_2.format(NAME))
     print("1. Take the Caldun")
     print("2. Leave")
-    fifthPathChoice = int(input("1, 2\n"))
-    if fifthPathChoice == 1:
+    fifthPathChoice = input("1, 2\n")
+    # Input validation
+    while fifthPathChoice != "1" and fifthPathChoice != "2":
+        print("Invalid input")
+        fifthPathChoice = input("1, 2\n")
+
+    if fifthPathChoice == "1":
         # Function called from gmail_sheet.py
         update_sheet_wizard_ending_1()
         # Display story
         with open('stories/wizard/wizard_end_1.txt') as f:
             end1 = f.read()
             print(end1.format(NAME))
-    elif fifthPathChoice == 2:
+    elif fifthPathChoice == "2":
         # Function called from gmail_sheet.py
         update_sheet_wizard_ending_2()
         # Display story
