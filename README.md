@@ -1,4 +1,4 @@
-# 
+# Story Game
 
 <img src="docs/features/program.JPG">
 
@@ -45,9 +45,7 @@ refresh-toc -->
 
 8. [Credit](#credit)
 
-    1. [Media credit](#media-credit)
-
-    2. [Acknowledgement](#acknowledgement)
+    1. [Acknowledgement](#acknowledgement)
 
 ## Project goals
 
