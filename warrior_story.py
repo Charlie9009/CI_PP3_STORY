@@ -13,7 +13,7 @@ def warriorPath0():
     while pathChoice != "1":
             print("Invalid input")
             pathChoice = input("1\n")
-            
+
     if pathChoice == "1":
         warriorPath1()
 
