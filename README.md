@@ -162,7 +162,31 @@ refresh-toc -->
 
 ### API
 
+* Google Sheets
 
+    1. Go to Google Spreadsheet and create a new sheet.
+
+    2. Go to Google Cloud Platform.
+
+    3. Click **select a project** in the top left corner and then **new project** in the pop up window, top left corner.
+
+    4. Give the project a name and click create, then click **select project**
+
+    5. Click the **navigation** button in the top left corner and select **API's & Services**.
+
+    6. Search for **google drive** and click on it and then enable and click **create credentials**.
+
+    7. Choose **google drive api** in the drop down menu, then **application data** and then select **No, I'm not using them.** and then **next**
+
+    8. Fill out your service account name, then **continue**, select **editor** in role field and continue, then **done**.
+
+    9. Go to the **credentials** page under **API's & Services**, fill out the button next to the email at the bottom of the screen and click **service account details**.
+
+    10. Go to **keys** click **add key** then **create new key**, fill out **json** and create.
+
+    11. now you should have a downloaded file with your key, drag this file to your
+
+    13. Go to **API's & Services** and search for **google sheets**, select it and then click **enable**.
 
 ## Bugs
 
