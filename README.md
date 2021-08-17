@@ -272,8 +272,7 @@ refresh-toc -->
 |  The story has been written by the site owner |    None    |       Original story                         |  Original story     |
 |   Different paths changes the story   |    Choose path     |   Story will change with different paths     |   Works as expected |
 <details><summary>Screenshot</summary>
-<img src="">
-<img src="">
+<img src="docs/features/user_story_1.png">
 </details>
 <hr>
 
@@ -284,7 +283,7 @@ refresh-toc -->
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
 |  Different paths ends the game  |    Choose path     |      If the user picks a wrong path the game ends  | Works as expected   |
 <details><summary>Screenshot</summary>
-<img src="">
+<img src="docs/features/user_story_2.png">
 </details>
 <hr>
 
@@ -295,7 +294,7 @@ refresh-toc -->
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
 |  Write your name and it stays in the story  |  Write you name | After user writes name it will show up in the story | Works as expected   |
 <details><summary>Screenshot</summary>
-<img src="">
+<img src="docs/features/user_story_3.png">
 </details>
 <hr>
 
@@ -306,7 +305,7 @@ refresh-toc -->
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
 |  Different paths in the story   |  Choose path       |      Different story depending on choice           |   Works as expected |
 <details><summary>Screenshot</summary>
-<img src="">
+<img src="docs/features/user_story_4.png">
 </details>
 <hr>
 
@@ -317,7 +316,7 @@ refresh-toc -->
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
 |   Choosing a class            |  Choose class        |   A user will be able to choose different classes  | Works as expected   |
 <details><summary>Screenshot</summary>
-<img src="">
+<img src="docs/features/user_story_5.png">
 </details>
 <hr>
 
@@ -329,7 +328,7 @@ refresh-toc -->
 |                               |                      |                                                    |                     |
 |                               |                      |                                                    |                     |
 <details><summary>Screenshot</summary>
-<img src="">
+<img src="docs/features/user_story_1.png">
 </details>
 <hr>
 
@@ -341,7 +340,7 @@ refresh-toc -->
 |                               |                      |                                                    |                     |
 |                               |                      |                                                    |                     |
 <details><summary>Screenshot</summary>
-<img src="">
+<img src="docs/features/user_story_1.png">
 </details>
 <hr>
 
@@ -353,7 +352,7 @@ refresh-toc -->
 |                               |                      |                                                    |                     |
 |                               |                      |                                                    |                     |
 <details><summary>Screenshot</summary>
-<img src="">
+<img src="docs/features/user_story_1.png">
 </details>
 <hr>
 
@@ -365,7 +364,7 @@ refresh-toc -->
 |                               |                      |                                                    |                     |
 |                               |                      |                                                    |                     |
 <details><summary>Screenshot</summary>
-<img src="">
+<img src="docs/features/user_story_1.png">
 </details>
 <hr>
 
@@ -377,7 +376,7 @@ refresh-toc -->
 |                               |                      |                                                    |                     |
 |                               |                      |                                                    |                     |
 <details><summary>Screenshot</summary>
-<img src="">
+<img src="docs/features/user_story_1.png">
 </details>
 <hr>
 
@@ -389,7 +388,7 @@ refresh-toc -->
 |                               |                      |                                                    |                     |
 |                               |                      |                                                    |                     |
 <details><summary>Screenshot</summary>
-<img src="">
+<img src="docs/features/user_story_1.png">
 </details>
 <hr>
 
