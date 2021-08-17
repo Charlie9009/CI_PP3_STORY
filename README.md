@@ -226,6 +226,8 @@ refresh-toc -->
 
 * VS code
 
+* Google Sheets
+
 ## Testing
 
 ### Validator testing
@@ -421,6 +423,25 @@ refresh-toc -->
 
 ## Bugs
 
+* **Bug:** When opening txt files with story, the name would not print out how it had been input in the beginning.
+
+    * **Fix:** When printing the text from the file I added .format(NAME) to format the variable. In the txt files I added {0} where I wanted the name to access the NAME variable.
+
+* **Bug:** In some places the print statements and the docstrings were to long. 
+
+    * **Fix:** I took some of that text and added it on another line.
+
+* **Bug:** In some places the name, hero_data or ogre_data was not printing.
+
+    * **Fix:** I added the missing f in the print statement.
+
+* **Bug:** When getting data from google sheets it did not work to get the value.
+
+    * **Fix:** I added int before to change the value.
+
+* **Bug:**
+
+    * **Fix:**
 
 ### Known bugs
 

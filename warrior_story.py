@@ -1,7 +1,7 @@
+from os import path
 from character import NAME, hero_data, ogre_data
 from gmail_sheet import update_sheet_warrior_ending_1, get_warrior_loot
 from gmail_sheet import update_sheet_warrior_ending_2
-from validation import validate_warrior_path0, validate_user_input
 
 
 def warriorPath0():
@@ -9,7 +9,11 @@ def warriorPath0():
     Function to display the first choice in the story.
     Presenting the user with the number 1 to continue with a new function.
     """
-    if validate_warrior_path0() == 1:
+    pathChoice = input("1\n")
+    while pathChoice != "1" and pathChoice != "2":
+            print("Invalid input")
+            pathChoice = input("1, 2\n")
+    if pathChoice == "1":
         warriorPath1()
 
 
@@ -26,11 +30,16 @@ def warriorPath1():
         print("What will you do?")
         print("1. Don't light the torch and keep walking")
         print("2. Light the torch with magic")
-        secondPathChoice = int(input("1, 2\n"))
-        if secondPathChoice == 1:
+        secondPathChoice = input("1, 2\n")
+        # Input validation
+        while secondPathChoice != "1" and secondPathChoice != "2":
+            print("Invalid input")
+            secondPathChoice = input("1, 2\n")
+
+        if secondPathChoice == "1":
             warriorPath1_1()
             break
-        elif secondPathChoice == 2:
+        elif secondPathChoice == "2":
             warriorPath1_2()
 
 
@@ -46,11 +55,16 @@ def warriorPath1_1():
     while True:
         print("1. Attack the ogre")
         print("2. Sneak around the ogre")
-        thirdPathChoice = int(input("1, 2\n"))
-        if thirdPathChoice == 1:
+        thirdPathChoice = input("1, 2\n")
+        # Input validation
+        while thirdPathChoice != "1" and thirdPathChoice != "2":
+            print("Invalid input")
+            thirdPathChoice = input("1, 2\n")
+
+        if thirdPathChoice == "1":
             warriorBattle()
             break
-        elif thirdPathChoice == 2:
+        elif thirdPathChoice == "2":
             warriorPath1_1_2()
 
 
@@ -63,10 +77,15 @@ def warriorBattle():
     print("What will you do?")
     print("1. Pick up a big rock and throw it at the ogre")
     print("2. Jump out of the way")
-    battleChoice = int(input("1, 2\n"))
-    if battleChoice == 1:
+    battleChoice = input("1, 2\n")
+    # Input validation
+    while battleChoice != "1" and battleChoice != "2":
+        print("Invalid input")
+        battleChoice = input("1, 2\n")
+
+    if battleChoice == "1":
         warriorBattle1()
-    elif battleChoice == 2:
+    elif battleChoice == "2":
         warriorBattle2()
 
 
@@ -83,10 +102,15 @@ def warriorBattle1():
     print("What will you do?")
     print("1. Wait for ogre to make the next move")
     print("2. Charge at the ogre")
-    battleChoice = int(input("1, 2\n"))
-    if battleChoice == 1:
+    battleChoice = input("1, 2\n")
+    # Input validation
+    while battleChoice != "1" and battleChoice != "2":
+        print("Invalid input")
+        battleChoice = input("1, 2\n")
+
+    if battleChoice == "1":
         warriorBattle1_1()
-    elif battleChoice == 2:
+    elif battleChoice == "2":
         warriorBattle1_2()
 
 
@@ -152,10 +176,15 @@ def warriorPath1_1_1():
         print("What will you do?")
         print("1. Collect courage")
         print("2. Jump down")
-        fourthPathChoice = int(input("1, 2\n"))
-        if fourthPathChoice == 1:
+        fourthPathChoice = input("1, 2\n")
+        # Input validation
+        while fourthPathChoice != "1" and fourthPathChoice != "2":
+            print("Invalid input")
+            fourthPathChoice = input("1, 2\n")
+
+        if fourthPathChoice == "1":
             print("You collected courage")
-        elif fourthPathChoice == 2:
+        elif fourthPathChoice == "2":
             warriorPath1_1_1_2()
             break
 
@@ -182,15 +211,20 @@ def warriorPath1_1_1_2():
             print(path1_1_1_2.format(NAME))
     print("1. Take the Caldun")
     print("2. Leave")
-    fifthPathChoice = int(input("1, 2\n"))
-    if fifthPathChoice == 1:
+    fifthPathChoice = input("1, 2\n")
+    # Input validation
+    while fifthPathChoice != "1" and fifthPathChoice != "2":
+        print("Invalid input")
+        fifthPathChoice = input("1, 2\n")
+
+    if fifthPathChoice == "1":
         # Function called from gmail_sheet.py
         update_sheet_warrior_ending_1()
         # Display story
         with open('stories/warrior/warrior_end_1.txt') as f:
             end1 = f.read()
             print(end1.format(NAME))
-    elif fifthPathChoice == 2:
+    elif fifthPathChoice == "2":
         # Function called from gmail_sheet.py
         update_sheet_warrior_ending_2()
         # Display story
