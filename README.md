@@ -272,7 +272,7 @@ refresh-toc -->
 |  The story has been written by the site owner |    None    |       Original story                         |  Original story     |
 |   Different paths changes the story   |    Choose path     |   Story will change with different paths     |   Works as expected |
 <details><summary>Screenshot</summary>
-<img src="docs/features/user_story_1.png">
+<img src="docs/features/user_story_1_8.png">
 </details>
 <hr>
 
@@ -283,7 +283,7 @@ refresh-toc -->
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
 |  Different paths ends the game  |    Choose path     |      If the user picks a wrong path the game ends  | Works as expected   |
 <details><summary>Screenshot</summary>
-<img src="docs/features/user_story_2.png">
+<img src="docs/features/user_story_2_7.png">
 </details>
 <hr>
 
@@ -305,7 +305,7 @@ refresh-toc -->
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
 |  Different paths in the story   |  Choose path       |      Different story depending on choice           |   Works as expected |
 <details><summary>Screenshot</summary>
-<img src="docs/features/user_story_4.png">
+<img src="docs/features/user_story_4_9.png">
 </details>
 <hr>
 
@@ -325,10 +325,9 @@ refresh-toc -->
 
 |             Feature           |        Action        |                 Expected result                    |   Actual result     |
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
-|                               |                      |                                                    |                     |
-|                               |                      |                                                    |                     |
+|   Display stats               |   Pick a class       |  When picking a class the stats will be displayed  |  Works as expected  |
 <details><summary>Screenshot</summary>
-<img src="docs/features/user_story_1.png">
+<img src="docs/features/user_story_6.png">
 </details>
 <hr>
 
@@ -337,10 +336,9 @@ refresh-toc -->
 
 |             Feature           |        Action        |                 Expected result                    |   Actual result     |
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
-|                               |                      |                                                    |                     |
-|                               |                      |                                                    |                     |
+|  Different paths ends the game  |    Choose path     |      If the user picks a wrong path the game ends  | Works as expected   |
 <details><summary>Screenshot</summary>
-<img src="docs/features/user_story_1.png">
+<img src="docs/features/user_story_2_7.png">
 </details>
 <hr>
 
@@ -349,10 +347,10 @@ refresh-toc -->
 
 |             Feature           |        Action        |                 Expected result                    |   Actual result     |
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
-|                               |                      |                                                    |                     |
-|                               |                      |                                                    |                     |
+|  The story has been written by the site owner |    None    |       Original story                         |  Original story     |
+|   Different paths changes the story   |    Choose path     |   Story will change with different paths     |   Works as expected |
 <details><summary>Screenshot</summary>
-<img src="docs/features/user_story_1.png">
+<img src="docs/features/user_story_1_8.png">
 </details>
 <hr>
 
@@ -361,10 +359,9 @@ refresh-toc -->
 
 |             Feature           |        Action        |                 Expected result                    |   Actual result     |
 |            :----------:       |    :------------:    |               :-----------------:                  | :---------------:   |
-|                               |                      |                                                    |                     |
-|                               |                      |                                                    |                     |
+|  Different paths in the story   |  Choose path       |      Different story depending on choice           |   Works as expected |
 <details><summary>Screenshot</summary>
-<img src="docs/features/user_story_1.png">
+<img src="docs/features/user_story_4_9.png">
 </details>
 <hr>
 
