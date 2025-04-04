@@ -58,9 +58,8 @@ def choseClass():
         mana = 100
         mind = 50
         # My code
+        clothes = wizardClothes
         print("You have chosen Wizard, your clothes are...")
-        for wizard in wizardClothes:
-            print(wizardClothes[wizard])
         """
         This part was inspired from "Advanced Python Text Adventure"
         and addapted to my needs
@@ -71,9 +70,8 @@ def choseClass():
         mana = 25
         mind = 50
         # My code
+        clothes = warriorClothes
         print("You have chosen Warrior, your clothes are...")
-        for warrior in warriorClothes:
-            print(warriorClothes[warrior])
         """
         This part was inspired from "Advanced Python Text Adventure"
         and addapted to my needs
@@ -84,9 +82,11 @@ def choseClass():
         mana = 50
         mind = 100
         # My code
+        clothes = elfClothes
         print("You have chosen Elf, your clothes are...")
-        for elf in elfClothes:
-            print(elfClothes[elf])
+
+    for item in clothes.values():
+        print(item)
 
     return(health, mana, mind)
 
