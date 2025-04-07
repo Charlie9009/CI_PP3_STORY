@@ -4,7 +4,7 @@
 
 <hr>
 
-## Welcome to my program [Story Game](https://dashboard.heroku.com/apps/ci-pp3-story)!
+## Welcome to my program [Story Game](https://ci-pp3-story.herokuapp.com/)!
 
 <br>
 
